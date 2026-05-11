@@ -68,50 +68,15 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 
 ## Tech stack
 
-### Actively using
-
-![Python](https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=7dd3fc)
-![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=7dd3fc)
-![Next.js](https://img.shields.io/badge/Next.js-0f172a?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react&logoColor=7dd3fc)
-![Git](https://img.shields.io/badge/Git-0f172a?style=flat-square&logo=git&logoColor=f97316)
-![GitHub](https://img.shields.io/badge/GitHub-0f172a?style=flat-square&logo=github&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-0f172a?style=flat-square&logo=sqlite&logoColor=7dd3fc)
-
-### Touched in projects
-
-![Supabase](https://img.shields.io/badge/Supabase-0f172a?style=flat-square&logo=supabase&logoColor=22c55e)
-![FastAPI](https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=22c55e)
-![Docker](https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=7dd3fc)
-![Nginx](https://img.shields.io/badge/Nginx-0f172a?style=flat-square&logo=nginx&logoColor=22c55e)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0f172a?style=flat-square&logo=githubactions&logoColor=7dd3fc)
-
-### Currently strengthening
-
-`SQL` · `Algorithms and data structures` · `Debugging` · `Testing` · `Code reading` · `Documentation`
+**Actively using:** Python · TypeScript · Next.js/React · Git/GitHub · SQLite  
+**Touched in projects:** Supabase · FastAPI · Oracle Cloud · PM2/Nginx · Docker basics · GitHub Actions  
+**Currently strengthening:** SQL · Algorithms and data structures · Debugging · Testing · Code reading · Documentation
 
 ---
 
-## AI-assisted development tools
+## AI-assisted development
 
-I use AI tools as development support for research, code generation, review, debugging, and documentation.
-
-![Claude](https://img.shields.io/badge/Claude-0f172a?style=flat-square&logo=anthropic&logoColor=f97316)
-![Cursor](https://img.shields.io/badge/Cursor-0f172a?style=flat-square&logo=cursor&logoColor=white)
-![Codex CLI](https://img.shields.io/badge/Codex%20CLI-0f172a?style=flat-square&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-0f172a?style=flat-square&logo=githubcopilot&logoColor=22c55e)
-
----
-
-## GitHub activity
-
-<div align="center">
-
-![Tuncay's GitHub stats](https://github-readme-stats.vercel.app/api?username=SetraTheXX&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&icon_color=7dd3fc&text_color=cbd5e1)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SetraTheXX&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7dd3fc&text_color=cbd5e1)
-
-</div>
+I use Claude Code, Cursor, Codex CLI, and GitHub Copilot as support tools for research, code generation, review, debugging, and documentation.
 
 ---
 
