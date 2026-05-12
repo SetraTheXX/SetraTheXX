@@ -17,7 +17,7 @@ I focus on keeping scope clear, testing what I build, documenting progress, and 
 
 ## About me
 
-I am a first-year Computer Programming student from Samsun, Türkiye.  
+I am a first-year Computer Programming student at Ondokuz Mayıs University in Samsun, Türkiye.  
 My current work is focused on small but working tools, testable MVPs, and clear project notes.
 
 - Building: `next-secure-check`, `Nihongo Learn`, `BioVoid`, and `setrathex portfolio`
