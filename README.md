@@ -9,7 +9,7 @@ I focus on keeping scope clear, testing what I build, documenting progress, and 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-setrathex.com.tr-7dd3fc?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a)](https://setrathex.com.tr)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
-[![Email](https://img.shields.io/badge/Email-tuncay12354%40gmail.com-22c55e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:tuncay12354@gmail.com)
+[![Email](https://img.shields.io/badge/Email-tuncay123454%40gmail.com-22c55e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
 
 </div>
 
@@ -94,7 +94,7 @@ I use Claude Code, Cursor, Codex CLI, and GitHub Copilot as support tools for re
 
 - Portfolio: [setrathex.com.tr](https://setrathex.com.tr)
 - LinkedIn: [linkedin.com/in/tuncayolmez](https://linkedin.com/in/tuncayolmez)
-- Email: [tuncay12354@gmail.com](mailto:tuncay12354@gmail.com)
+- Email: [tuncay123454@gmail.com](mailto:tuncay123454@gmail.com)
 - Location: Samsun, Türkiye
 
 <div align="center">
