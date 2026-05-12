@@ -74,6 +74,16 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 
 ---
 
+## Activity
+
+<div align="center">
+
+[![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=SetraTheXX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity)](https://github.com/SetraTheXX)
+
+</div>
+
+---
+
 ## AI-assisted development
 
 I use Claude Code, Cursor, Codex CLI, and GitHub Copilot as support tools for research, code generation, review, debugging, and documentation.
