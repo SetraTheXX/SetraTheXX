@@ -20,9 +20,9 @@ I focus on keeping scope clear, testing what I build, documenting progress, and 
 I am a first-year Computer Programming student from Samsun, Türkiye.  
 My current work is focused on small but working tools, testable MVPs, and clear project notes.
 
-- Building: `next-secure-check`, `Nihongo Learn`, and `setrathex portfolio`
+- Building: `next-secure-check`, `Nihongo Learn`, `BioVoid`, and `setrathex portfolio`
 - Learning: SQL, algorithms and data structures, debugging, and test writing
-- Interested in: internships, open-source developer tools, and practical software projects
+- Interested in: internships, open-source developer tools, practical software projects, and research-style prototypes
 - Working style: scope first, test what matters, document progress, improve in small iterations
 
 ---
@@ -48,18 +48,18 @@ My current work is focused on small but working tools, testable MVPs, and clear 
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3>BioVoid</h3>
+      <p>Experimental computational biology prototype for protein motion, geometry-based cavity analysis, Atlas indexing, and FastAPI/React exploration.</p>
+      <p><b>Stack:</b> Python, FastAPI, React/Vite, SQLite, scientific Python stack</p>
+      <p><b>Focus:</b> research prototype, NMA workflow, cavity scoring, API/frontend stabilization</p>
+      <a href="https://github.com/SetraTheXX/BioVoid">Repository</a>
+    </td>
+    <td width="50%" valign="top">
       <h3>setrathex portfolio</h3>
       <p>Modern dark portfolio site built to present my projects, learning path, CV, and internship availability.</p>
       <p><b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Framer Motion</p>
       <p><b>Live:</b> <a href="https://setrathex.com.tr">setrathex.com.tr</a></p>
       <a href="https://github.com/SetraTheXX/setrathex-portfolio">Repository</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Learning projects</h3>
-      <p>Research and automation projects where I practice Python, technical reading, logging, risk control, and experiment discipline.</p>
-      <p><b>Examples:</b> KriptoVoidBot, BioVoid, Pagonic</p>
-      <p><b>Focus:</b> experiments, retrospectives, documentation</p>
-      <a href="https://setrathex.com.tr#projects">View on portfolio</a>
     </td>
   </tr>
 </table>
