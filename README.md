@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I’m Tuncay Ölmez
+# Hi, I'm Tuncay Ölmez
 
 ### Computer Programming Student · Software Developer Internship Candidate
 
@@ -77,6 +77,10 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 ## Activity
 
 <div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SetraTheXX&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SetraTheXX&layout=compact&theme=tokyonight&hide_border=true)
 
 [![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=SetraTheXX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity)](https://github.com/SetraTheXX)
 
