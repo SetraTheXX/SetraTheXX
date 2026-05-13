@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Tuncay Ölmez
+# Hi, I’m Tuncay Ölmez
 
 ### Computer Programming Student · Software Developer Internship Candidate
 
@@ -78,11 +78,12 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SetraTheXX&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SetraTheXX&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&custom_title=GitHub%20Stats" alt="Tuncay's GitHub stats" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=SetraTheXX&theme=tokyonight&hide_border=true" alt="Tuncay's GitHub streak" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SetraTheXX&layout=compact&theme=tokyonight&hide_border=true)
+<br/>
 
-[![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=SetraTheXX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity)](https://github.com/SetraTheXX)
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SetraTheXX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution Activity Graph" />
 
 </div>
 
