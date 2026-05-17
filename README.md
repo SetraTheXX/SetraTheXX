@@ -7,9 +7,9 @@
 I build web applications, developer tools, and Python automation projects.  
 I focus on keeping scope clear, testing what I build, documenting progress, and showing what actually works.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-setrathex.com.tr-7dd3fc?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a)](https://setrathex.com.tr)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
-[![Email](https://img.shields.io/badge/Email-tuncay123454%40gmail.com-22c55e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-website-7dd3fc?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a)](https://setrathex.com.tr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
+[![Email](https://img.shields.io/badge/Email-contact-22c55e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
 
 </div>
 
