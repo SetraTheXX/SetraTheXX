@@ -33,10 +33,14 @@ My current work is focused on small but working tools, testable MVPs, and clear 
   <tr>
     <td width="50%" valign="top">
       <h3>next-secure-check</h3>
-      <p>Open-source CLI tool that scans common security mistakes in Next.js projects before production.</p>
-      <p><b>Stack:</b> TypeScript, Node.js, pnpm, Vitest, GitHub Actions</p>
-      <p><b>Focus:</b> rule engine, CLI flow, tests, documentation</p>
-      <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a>
+      <p>Published open-source CLI tool for scanning common security mistakes in Next.js projects before production.</p>
+      <p><b>Stack:</b> TypeScript, Node.js, pnpm, Vitest, GitHub Actions, SARIF</p>
+      <p><b>Focus:</b> deterministic rule engine, CLI flow, npm packaging, SARIF reporting, web demo hardening, tests, documentation</p>
+      <p><b>Status:</b> v0.1.0 published on npm · 20 security rules · 261 passing tests</p>
+      <p>
+        <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
+        <a href="https://www.npmjs.com/package/next-secure-check">npm</a>
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3>Nihongo Learn</h3>
