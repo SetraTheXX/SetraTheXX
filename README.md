@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I’m Tuncay Ölmez
+# Hi, I'm Tuncay Ölmez
 
 ### Computer Programming Student · Software Developer Internship Candidate
 
@@ -33,7 +33,7 @@ My current work is focused on small but working tools, testable MVPs, and clear 
   <tr>
     <td width="50%" valign="top">
       <h3>next-secure-check</h3>
-      <p>Published open-source CLI tool for running deterministic security sanity checks on Next.js projects before production.</p>
+      <p>Published open-source CLI for running deterministic security sanity checks on Next.js projects before production.</p>
       <p><b>Stack:</b> TypeScript, Node.js, pnpm, Vitest, GitHub Actions, SARIF, npm</p>
       <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted rule checks, SARIF/GitHub reporting, tests, documentation</p>
       <p><b>Status:</b> v0.2.0 published on npm · preset-based scans · AST-assisted checks · 374 passing tests</p>
@@ -76,16 +76,6 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 **Actively using:** Python · TypeScript · Next.js/React · Node.js · Git/GitHub · SQLite  
 **Touched in projects:** Supabase · FastAPI · Oracle Cloud · PM2/Nginx · Docker basics · GitHub Actions · npm packaging · SARIF  
 **Currently strengthening:** SQL · Algorithms and data structures · Debugging · Testing · Code reading · Documentation
-
----
-
-## Activity
-
-<div align="center">
-
-[![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=SetraTheXX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity)](https://github.com/SetraTheXX)
-
-</div>
 
 ---
 
