@@ -33,13 +33,14 @@ My current work is focused on small but working tools, testable MVPs, and clear 
   <tr>
     <td width="50%" valign="top">
       <h3>next-secure-check</h3>
-      <p>Published open-source CLI tool for scanning common security mistakes in Next.js projects before production.</p>
-      <p><b>Stack:</b> TypeScript, Node.js, pnpm, Vitest, GitHub Actions, SARIF</p>
-      <p><b>Focus:</b> deterministic rule engine, CLI flow, npm packaging, SARIF reporting, web demo hardening, tests, documentation</p>
-      <p><b>Status:</b> v0.1.0 published on npm · 20 security rules · 261 passing tests</p>
+      <p>Published open-source CLI tool for running deterministic security sanity checks on Next.js projects before production.</p>
+      <p><b>Stack:</b> TypeScript, Node.js, pnpm, Vitest, GitHub Actions, SARIF, npm</p>
+      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted rule checks, SARIF/GitHub reporting, tests, documentation</p>
+      <p><b>Status:</b> v0.2.0 published on npm · preset-based scans · AST-assisted checks · 374 passing tests</p>
       <p>
         <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
-        <a href="https://www.npmjs.com/package/next-secure-check">npm</a>
+        <a href="https://www.npmjs.com/package/next-secure-check">npm</a> ·
+        <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.2.0">Release notes</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -72,8 +73,8 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 
 ## Tech stack
 
-**Actively using:** Python · TypeScript · Next.js/React · Git/GitHub · SQLite  
-**Touched in projects:** Supabase · FastAPI · Oracle Cloud · PM2/Nginx · Docker basics · GitHub Actions  
+**Actively using:** Python · TypeScript · Next.js/React · Node.js · Git/GitHub · SQLite  
+**Touched in projects:** Supabase · FastAPI · Oracle Cloud · PM2/Nginx · Docker basics · GitHub Actions · npm packaging · SARIF  
 **Currently strengthening:** SQL · Algorithms and data structures · Debugging · Testing · Code reading · Documentation
 
 ---
@@ -90,7 +91,9 @@ My current work is focused on small but working tools, testable MVPs, and clear 
 
 ## AI-assisted development
 
-I use Claude Code, Cursor, Codex CLI, and GitHub Copilot as support tools for research, code generation, review, debugging, and documentation.
+I use Claude Code, Cursor, Codex CLI, and GitHub Copilot as support tools for research, code generation, review, debugging, testing, and documentation.
+
+I still manage the scope, technical decisions, validation, release process, and project direction myself.
 
 ---
 
