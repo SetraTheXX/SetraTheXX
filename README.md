@@ -88,13 +88,9 @@ My current focus is building small but working products: npm packages, developer
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>JarvisForME-v2</h3>
-      <p>Windows-focused personal assistant project based on a voice conversation workflow, Turkish identity behavior, app mapping, and AI-assisted desktop automation experiments.</p>
-      <p><b>Stack:</b> Python 3.12, desktop automation, voice workflow, AI assistant tooling</p>
-      <p><b>Focus:</b> voice interaction, assistant behavior, Windows app control, iterative AI-assisted development</p>
-      <p>
-        <a href="https://github.com/SetraTheXX/JarvisForME-v2">Repository</a>
-      </p>
+      <h3>More coming soon</h3>
+      <p>I keep this profile focused on public, working, and explainable projects. Private experiments are added here only after they are ready to be shared.</p>
+      <p><b>Focus:</b> clean releases, practical demos, better documentation, and stronger validation.</p>
     </td>
   </tr>
 </table>
