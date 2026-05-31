@@ -23,7 +23,7 @@ I am a Computer Programming student at Ondokuz Mayıs University in Samsun, Tür
 
 I like building practical software that has a real workflow behind it: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes. My recent work focuses heavily on **AI-assisted developer tooling** and making AI coding workflows more structured, testable, and auditable.
 
-* Building: `Codex Engineering Workflow Pack`, `next-secure-check`, `JarvisForME-v2`, `Nihongo Learn`, and my portfolio
+* Building: `Codex Engineering Workflow Pack`, `next-secure-check`, `Nihongo Learn`, `BioVoid`, and my portfolio
 * Learning: SQL, algorithms and data structures, debugging, testing, code reading, documentation, and software architecture
 * Interested in: internships, open-source developer tools, AI-assisted engineering workflows, practical software projects, and research-style prototypes
 * Working style: define the scope first, build in small iterations, test what matters, document decisions, and improve through feedback
@@ -65,17 +65,6 @@ I like building practical software that has a real workflow behind it: npm packa
 
   <tr>
     <td width="50%" valign="top">
-      <h3>JarvisForME-v2</h3>
-      <p>
-        Windows personal voice assistant prototype focused on Jarvis identity, Turkish usage, voice conversation, transcript cleanup, and safe tool behavior.
-      </p>
-      <p><b>Stack:</b> Python 3.12, Gemini Live, Windows automation, voice assistant tooling</p>
-      <p><b>Focus:</b> voice assistant UX, stable language behavior, tool safety, smoke tests, Codex-guided development workflow</p>
-      <p>
-        <a href="https://github.com/SetraTheXX/JarvisForME-v2">Repository</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3>Nihongo Learn</h3>
       <p>
         Japanese learning MVP for Turkish speakers with Hiragana/Katakana practice, SM-2 review logic, quizzes, XP/streak tracking, and mini story exercises.
@@ -86,9 +75,6 @@ I like building practical software that has a real workflow behind it: npm packa
         <a href="https://github.com/SetraTheXX/nihongo-learn">Repository</a>
       </p>
     </td>
-  </tr>
-
-  <tr>
     <td width="50%" valign="top">
       <h3>BioVoid</h3>
       <p>
@@ -100,6 +86,9 @@ I like building practical software that has a real workflow behind it: npm packa
         <a href="https://github.com/SetraTheXX/BioVoid">Repository</a>
       </p>
     </td>
+  </tr>
+
+  <tr>
     <td width="50%" valign="top">
       <h3>setrathex portfolio</h3>
       <p>
@@ -112,6 +101,13 @@ I like building practical software that has a real workflow behind it: npm packa
         <a href="https://github.com/SetraTheXX/setrathex-portfolio">Repository</a>
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3>More coming soon</h3>
+      <p>
+        I keep this profile focused on public, working, and explainable projects. Private experiments are added here only after they are ready to be shared.
+      </p>
+      <p><b>Focus:</b> clean releases, practical demos, better documentation, and stronger validation.</p>
+    </td>
   </tr>
 </table>
 
@@ -123,7 +119,6 @@ Right now I am improving my developer-tooling projects and building stronger eng
 
 * **Codex Engineering Workflow Pack:** local-first Codex skills, Coordinator Mode runtime, policy enforcement, guarded dispatch, reviewer gates, parallel worker workflows, and future multi-model adapter architecture
 * **next-secure-check:** deterministic Next.js security checks, SARIF output, CLI reliability, and test coverage
-* **JarvisForME-v2:** Windows voice assistant workflow, Turkish assistant identity, stable transcript behavior, and safe tool execution
 * **Portfolio/CV alignment:** keeping my public projects, README files, portfolio site, and internship profile consistent
 
 ---
