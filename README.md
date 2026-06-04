@@ -4,7 +4,7 @@
 
 ### Computer Programming Student · Developer Tools Builder · Software Developer Internship Candidate
 
-I build developer tools, CLI packages, web applications, automation workflows, and AI-assisted engineering systems.
+I build practical developer tools, CLI packages, web applications, automation workflows, and AI-assisted engineering systems.
 
 My focus is simple: clear scope, working MVPs, testable workflows, readable documentation, and shipping things that actually work.
 
@@ -21,9 +21,16 @@ My focus is simple: clear scope, working MVPs, testable workflows, readable docu
 
 I am a Computer Programming student at Ondokuz Mayıs University in Samsun, Türkiye.
 
-I like building practical software that has a real workflow behind it: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes. My recent work focuses heavily on **AI-assisted developer tooling** and making AI coding workflows more structured, testable, and auditable.
+I like building practical software that has a real workflow behind it: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes.
 
-* Building: `Codex Engineering Workflow Pack`, `next-secure-check`, `Nihongo Learn`, `BioVoid`, and my portfolio
+My recent work focuses heavily on two areas:
+
+* **developer tools and web security**
+* **structured AI-assisted engineering workflows**
+
+I use AI coding tools as support, but I still manage the scope, technical decisions, validation, release process, and project direction myself.
+
+* Building: `next-secure-check`, `Codex Engineering Workflow Pack`, `Nihongo Learn`, `BioVoid`, and my portfolio
 * Learning: SQL, algorithms and data structures, debugging, testing, code reading, documentation, and software architecture
 * Interested in: internships, open-source developer tools, AI-assisted engineering workflows, practical software projects, and research-style prototypes
 * Working style: define the scope first, build in small iterations, test what matters, document decisions, and improve through feedback
@@ -35,30 +42,41 @@ I like building practical software that has a real workflow behind it: npm packa
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>next-secure-check</h3>
+      <p>
+        Open-source CLI for quick, deterministic security sanity checks in Next.js projects before PR/deploy.
+      </p>
+      <p>
+        It is not a pentest tool or a full security audit replacement. The goal is to produce practical review signals for risky patterns.
+      </p>
+      <p><b>Stack:</b> TypeScript, Node.js, Next.js, Vitest, GitHub Actions, SARIF, npm</p>
+      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted checks, SARIF/GitHub Code Scanning, tests, documentation</p>
+      <p><b>Status:</b> <code>v0.3.0</code> published on npm · deterministic/rule-based scanning · no AI at runtime</p>
+      <p><b>v0.3.0 highlights:</b> fewer false positives, regression fixtures, better monorepo/context handling, XSS source/sanitizer refinement, middleware auth/rate-limit signals, SARIF polish, and new CLI commands: <code>init</code>, <code>rules</code>, <code>explain</code></p>
+      <p><b>Validation:</b> 429 package tests · 143 web tests · self scan 100/100 with 0 findings · vulnerable fixture 26 findings</p>
+      <p>
+        <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
+        <a href="https://www.npmjs.com/package/next-secure-check">npm</a> ·
+        <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.3.0">Release notes</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3>Codex Engineering Workflow Pack</h3>
       <p>
-        Local-first engineering workflow toolkit for Codex: skills, Coordinator Mode, guarded dispatch, worktree isolation, policy enforcement, reviewer gates, and parallel agent workflows.
+        Local-first engineering workflow toolkit for disciplined Codex/AI-assisted development.
       </p>
+      <p>
+        CEWP is not just a prompt pack. It is my attempt to make AI coding workflows more structured, auditable, and safer.
+      </p>
+      <p><b>Core idea:</b> plan → isolate → execute → collect → review → finalize</p>
       <p><b>Stack:</b> Node.js, JavaScript, CLI, npm, Git Worktree, Markdown, Codex workflows</p>
-      <p><b>Focus:</b> developer tooling, AI-assisted engineering workflows, local-first runtime design, policy guardrails, CLI UX, documentation</p>
+      <p><b>Focus:</b> developer tooling, AI-assisted engineering workflows, local-first runtime design, policy guardrails, reviewer gates, CLI UX, documentation</p>
       <p><b>Status:</b> <code>v0.2.0-beta.1</code> published on npm · 10 Codex skills · <code>cewp</code> CLI · Coordinator Mode runtime</p>
+      <p><b>Includes:</b> guarded dispatch, worktree isolation, worker/reviewer roles, allowed/forbidden file scopes, safe/trusted/full-authority policy modes, collect/review/finalize helpers, and smoke tests</p>
       <p>
         <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack">Repository</a> ·
         <a href="https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack">npm</a> ·
         <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.2.0-beta.1">Release notes</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>next-secure-check</h3>
-      <p>
-        Open-source CLI for deterministic security sanity checks in Next.js projects before production.
-      </p>
-      <p><b>Stack:</b> TypeScript, Node.js, Next.js, Vitest, GitHub Actions, SARIF, npm</p>
-      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted rule checks, SARIF/GitHub reporting, tests, documentation</p>
-      <p><b>Status:</b> <code>v0.2.1</code> published on npm · preset-based scans · AST-assisted checks · 374 passing tests</p>
-      <p>
-        <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
-        <a href="https://www.npmjs.com/package/next-secure-check">npm</a>
       </p>
     </td>
   </tr>
@@ -79,6 +97,9 @@ I like building practical software that has a real workflow behind it: npm packa
       <h3>BioVoid</h3>
       <p>
         Experimental computational biology prototype for protein motion, geometry-based cavity analysis, and cryptic pocket exploration.
+      </p>
+      <p>
+        This is a research-style software prototype, not a clinical, diagnostic, or drug-development system.
       </p>
       <p><b>Stack:</b> Python, Biopython, ProDy, SciPy, FastAPI</p>
       <p><b>Focus:</b> research prototype, PDB parsing, Normal Mode Analysis, cavity scoring, CLI/API workflow</p>
@@ -102,9 +123,12 @@ I like building practical software that has a real workflow behind it: npm packa
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>More coming soon</h3>
+      <h3>More projects</h3>
       <p>
-        I keep this profile focused on public, working, and explainable projects. Private experiments are added here only after they are ready to be shared.
+        I keep this profile focused on public, working, and explainable projects.
+      </p>
+      <p>
+        Private experiments are added here only after they are ready to be shared with clear documentation, validation, and scope.
       </p>
       <p><b>Focus:</b> clean releases, practical demos, better documentation, and stronger validation.</p>
     </td>
@@ -117,8 +141,8 @@ I like building practical software that has a real workflow behind it: npm packa
 
 Right now I am improving my developer-tooling projects and building stronger engineering workflows around them.
 
+* **next-secure-check:** deterministic Next.js security sanity checks, false-positive reduction, SARIF/GitHub Code Scanning output, CLI UX, and regression fixtures
 * **Codex Engineering Workflow Pack:** local-first Codex skills, Coordinator Mode runtime, policy enforcement, guarded dispatch, reviewer gates, parallel worker workflows, and future multi-model adapter architecture
-* **next-secure-check:** deterministic Next.js security checks, SARIF output, CLI reliability, and test coverage
 * **Portfolio/CV alignment:** keeping my public projects, README files, portfolio site, and internship profile consistent
 
 ---
@@ -137,9 +161,9 @@ Right now I am improving my developer-tooling projects and building stronger eng
 
 ## AI-assisted development
 
-I use Codex CLI, Claude Code, GitHub Copilot, Cursor, and other AI coding tools as support for research, planning, code generation, review, debugging, testing, and documentation.
+I use Codex CLI, Claude Code, GitHub Copilot, Cursor, Gemini, Qwen/GLM, and other AI coding tools as support for research, planning, code generation, review, debugging, testing, and documentation.
 
-I still manage the scope, technical decisions, validation, release process, and project direction myself.
+I do not treat AI as an autopilot replacement for software engineering. I still manage the scope, technical decisions, validation, release process, and project direction myself.
 
 A lot of my recent work focuses on making AI-assisted development more structured:
 
@@ -150,6 +174,7 @@ A lot of my recent work focuses on making AI-assisted development more structure
 * review gates
 * local-first workflow discipline
 * safer AI execution through explicit file scopes and policy modes
+* human-controlled merge, push, publish, and release steps
 
 ---
 
