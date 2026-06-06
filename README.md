@@ -2,7 +2,7 @@
 
 # Hi, I'm Tuncay Ölmez
 
-### Computer Programming Student · Developer Tools Builder · Software Developer Internship Candidate
+### Computer Programming Student · Developer Tools Builder · Software Development Internship Candidate
 
 I build practical developer tools, CLI packages, web applications, automation workflows, and AI-assisted engineering systems.
 
@@ -21,19 +21,15 @@ My focus is simple: clear scope, working MVPs, testable workflows, readable docu
 
 I am a Computer Programming student at Ondokuz Mayıs University in Samsun, Türkiye.
 
-I like building practical software that has a real workflow behind it: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes.
+I like building practical software with clear workflows: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes.
 
-My recent work focuses heavily on two areas:
+My recent work focuses on:
 
-* **developer tools and web security**
-* **structured AI-assisted engineering workflows**
+* developer tools and web security
+* structured AI-assisted engineering workflows
+* practical projects with tests, documentation, and release discipline
 
 I use AI coding tools as support, but I still manage the scope, technical decisions, validation, release process, and project direction myself.
-
-* Building: `next-secure-check`, `Codex Engineering Workflow Pack`, `Nihongo Learn`, `BioVoid`, and my portfolio
-* Learning: SQL, algorithms and data structures, debugging, testing, code reading, documentation, and software architecture
-* Interested in: internships, open-source developer tools, AI-assisted engineering workflows, practical software projects, and research-style prototypes
-* Working style: define the scope first, build in small iterations, test what matters, document decisions, and improve through feedback
 
 ---
 
@@ -50,9 +46,8 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
         It is not a pentest tool or a full security audit replacement. The goal is to produce practical review signals for risky patterns.
       </p>
       <p><b>Stack:</b> TypeScript, Node.js, Next.js, Vitest, GitHub Actions, SARIF, npm</p>
-      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted checks, SARIF/GitHub Code Scanning, tests, documentation</p>
       <p><b>Status:</b> <code>v0.3.0</code> published on npm · deterministic/rule-based scanning · no AI at runtime</p>
-      <p><b>v0.3.0 highlights:</b> fewer false positives, regression fixtures, better monorepo/context handling, XSS source/sanitizer refinement, middleware auth/rate-limit signals, SARIF polish, and new CLI commands: <code>init</code>, <code>rules</code>, <code>explain</code></p>
+      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted checks, SARIF/GitHub Code Scanning, tests, and documentation</p>
       <p><b>Validation:</b> 429 package tests · 143 web tests · self scan 100/100 with 0 findings · vulnerable fixture 26 findings</p>
       <p>
         <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
@@ -70,9 +65,8 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
       </p>
       <p><b>Core idea:</b> plan → isolate → execute → collect → review → finalize</p>
       <p><b>Stack:</b> Node.js, JavaScript, CLI, npm, Git Worktree, Markdown, Codex workflows</p>
-      <p><b>Focus:</b> developer tooling, AI-assisted engineering workflows, local-first runtime design, policy guardrails, reviewer gates, CLI UX, documentation</p>
       <p><b>Status:</b> <code>v0.2.0-beta.1</code> published on npm · 10 Codex skills · <code>cewp</code> CLI · Coordinator Mode runtime</p>
-      <p><b>Includes:</b> guarded dispatch, worktree isolation, worker/reviewer roles, allowed/forbidden file scopes, safe/trusted/full-authority policy modes, collect/review/finalize helpers, and smoke tests</p>
+      <p><b>Includes:</b> worktree isolation, worker/reviewer roles, guarded dispatch, file-scope rules, policy modes, collect/review/finalize helpers, and smoke tests</p>
       <p>
         <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack">Repository</a> ·
         <a href="https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack">npm</a> ·
@@ -88,7 +82,7 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
         Japanese learning MVP for Turkish speakers with Hiragana/Katakana practice, SM-2 review logic, quizzes, XP/streak tracking, and mini story exercises.
       </p>
       <p><b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Zustand, Supabase plan</p>
-      <p><b>Focus:</b> frontend architecture, learning flow, state management, user testing, language-learning UX</p>
+      <p><b>Focus:</b> frontend architecture, learning flow, state management, user testing, and language-learning UX</p>
       <p>
         <a href="https://github.com/SetraTheXX/nihongo-learn">Repository</a>
       </p>
@@ -102,7 +96,7 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
         This is a research-style software prototype, not a clinical, diagnostic, or drug-development system.
       </p>
       <p><b>Stack:</b> Python, Biopython, ProDy, SciPy, FastAPI</p>
-      <p><b>Focus:</b> research prototype, PDB parsing, Normal Mode Analysis, cavity scoring, CLI/API workflow</p>
+      <p><b>Focus:</b> PDB parsing, Normal Mode Analysis, cavity scoring, and CLI/API workflow</p>
       <p>
         <a href="https://github.com/SetraTheXX/BioVoid">Repository</a>
       </p>
@@ -116,7 +110,6 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
         Personal portfolio site built to present my projects, learning path, CV, and internship availability.
       </p>
       <p><b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Framer Motion</p>
-      <p><b>Focus:</b> personal branding, project presentation, responsive UI, animation, CV alignment</p>
       <p><b>Live:</b> <a href="https://setrathex.com.tr">setrathex.com.tr</a></p>
       <p>
         <a href="https://github.com/SetraTheXX/setrathex-portfolio">Repository</a>
@@ -139,10 +132,10 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
 
 ## Current focus
 
-Right now I am improving my developer-tooling projects and building stronger engineering workflows around them.
+Right now I am mainly improving:
 
-* **next-secure-check:** deterministic Next.js security sanity checks, false-positive reduction, SARIF/GitHub Code Scanning output, CLI UX, and regression fixtures
-* **Codex Engineering Workflow Pack:** local-first Codex skills, Coordinator Mode runtime, policy enforcement, guarded dispatch, reviewer gates, parallel worker workflows, and future multi-model adapter architecture
+* **next-secure-check:** deterministic Next.js security sanity checks, false-positive reduction, SARIF output, CLI UX, and regression fixtures
+* **Codex Engineering Workflow Pack:** local-first Codex skills, Coordinator Mode runtime, policy guardrails, reviewer gates, and multi-worker workflow experiments
 * **Portfolio/CV alignment:** keeping my public projects, README files, portfolio site, and internship profile consistent
 
 ---
@@ -151,7 +144,7 @@ Right now I am improving my developer-tooling projects and building stronger eng
 
 **Actively using:** Python · TypeScript · JavaScript · Node.js · Next.js/React · Git/GitHub · SQLite
 
-**Tools and platforms:** npm package publishing · GitHub Actions · SARIF · Git worktree · CLI development · Windows/PowerShell · Vitest
+**Tools and platforms:** npm publishing · GitHub Actions · SARIF · Git worktree · CLI development · Windows/PowerShell · Vitest
 
 **Touched in projects:** FastAPI · Supabase · Oracle Cloud · PM2/Nginx · Docker basics · Tailwind CSS · Biopython/ProDy
 
@@ -161,20 +154,11 @@ Right now I am improving my developer-tooling projects and building stronger eng
 
 ## AI-assisted development
 
-I use Codex CLI, Claude Code, GitHub Copilot, Cursor, Gemini, Qwen/GLM, and other AI coding tools as support for research, planning, code generation, review, debugging, testing, and documentation.
+I use Codex CLI, Claude Code, GitHub Copilot, Cursor, Gemini, Qwen/GLM, and other AI coding tools for research, planning, code generation, review, debugging, testing, and documentation.
 
 I do not treat AI as an autopilot replacement for software engineering. I still manage the scope, technical decisions, validation, release process, and project direction myself.
 
-A lot of my recent work focuses on making AI-assisted development more structured:
-
-* clear PRDs and roadmaps
-* smaller implementation slices
-* TDD/debugging loops
-* worktree-based isolation
-* review gates
-* local-first workflow discipline
-* safer AI execution through explicit file scopes and policy modes
-* human-controlled merge, push, publish, and release steps
+A lot of my recent work focuses on making AI-assisted development more structured through clear PRDs, smaller implementation slices, TDD/debugging loops, worktree isolation, review gates, explicit file scopes, and human-controlled merge/push/publish steps.
 
 ---
 
@@ -182,14 +166,7 @@ A lot of my recent work focuses on making AI-assisted development more structure
 
 I am open to software development internships, open-source collaboration, and practical developer-tooling projects.
 
-I am especially interested in:
-
-* developer tools and CLI projects
-* web applications with clear user value
-* AI-assisted engineering workflows
-* automation and productivity tools
-* security-focused tooling
-* research-style software prototypes
+I am especially interested in developer tools, CLI projects, web applications with clear user value, AI-assisted engineering workflows, automation/productivity tools, security-focused tooling, and research-style software prototypes.
 
 ---
 
