@@ -1,54 +1,61 @@
 <div align="center">
 
-# Hi, I'm Tuncay Ölmez
+# Tuncay Ölmez
 
-### Computer Programming Student · Developer Tools Builder · Software Development Internship Candidate
+### Computer Programming Student · Developer Tools Builder · Open-source Project Maintainer
 
-I build practical developer tools, CLI packages, web applications, automation workflows, and AI-assisted engineering systems.
+I build practical developer tools, CLI packages, security-focused utilities, automation workflows, and AI-assisted engineering systems.
 
-My focus is simple: clear scope, working MVPs, testable workflows, readable documentation, and shipping things that actually work.
+**Scope first. Ship small. Test what matters. Document honestly.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-website-7dd3fc?style=for-the-badge\&logo=vercel\&logoColor=white\&labelColor=0f172a)](https://setrathex.com.tr)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-profile-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white\&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
-[![Email](https://img.shields.io/badge/Email-contact-22c55e?style=for-the-badge\&logo=gmail\&logoColor=white\&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-setrathex.com.tr-7dd3fc?style=for-the-badge\&logo=vercel\&logoColor=white\&labelColor=0f172a)](https://setrathex.com.tr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white\&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
 [![npm](https://img.shields.io/badge/npm-setrathex-cb3837?style=for-the-badge\&logo=npm\&logoColor=white\&labelColor=0f172a)](https://www.npmjs.com/~setrathex)
+[![Email](https://img.shields.io/badge/Email-contact-22c55e?style=for-the-badge\&logo=gmail\&logoColor=white\&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
 
 </div>
 
 ---
 
-## About me
+## What I build
 
-I am a Computer Programming student at Ondokuz Mayıs University in Samsun, Türkiye.
+I like projects that have a real workflow behind them.
 
-I like building practical software with clear workflows: npm packages, developer tools, local-first automation systems, web apps, and research-style prototypes.
+Right now my work is centered around:
 
-My recent work focuses on:
+* **developer tooling**
+* **security-focused CLI utilities**
+* **local-first AI-assisted engineering workflows**
+* **test-backed public releases**
+* **small products that actually work**
 
-* developer tools and web security
-* structured AI-assisted engineering workflows
-* practical projects with tests, documentation, and release discipline
-
-I use AI coding tools as support, but I still manage the scope, technical decisions, validation, release process, and project direction myself.
+I use AI coding tools as support for planning, implementation, review, debugging, testing, and documentation — but I still own the scope, technical decisions, validation, release process, and project direction.
 
 ---
 
-## Featured projects
+## Main projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>next-secure-check</h3>
       <p>
-        Open-source CLI for quick, deterministic security sanity checks in Next.js projects before PR/deploy.
+        Deterministic security sanity-check CLI for Next.js projects.
       </p>
       <p>
-        It is not a pentest tool or a full security audit replacement. The goal is to produce practical review signals for risky patterns.
+        It is not a pentest tool or a full audit replacement. It is designed to catch practical review signals before PR/deploy.
       </p>
-      <p><b>Stack:</b> TypeScript, Node.js, Next.js, Vitest, GitHub Actions, SARIF, npm</p>
-      <p><b>Status:</b> <code>v0.3.0</code> published on npm · deterministic/rule-based scanning · no AI at runtime</p>
-      <p><b>Focus:</b> CLI flow, npm packaging, context-aware scanning, AST-assisted checks, SARIF/GitHub Code Scanning, tests, and documentation</p>
-      <p><b>Validation:</b> 429 package tests · 143 web tests · self scan 100/100 with 0 findings · vulnerable fixture 26 findings</p>
+      <p>
+        <b>Highlights:</b>
+        <br />
+        rule-based scanner · context-aware checks · AST-assisted rules · SARIF output · GitHub Code Scanning support
+      </p>
+      <p>
+        <b>Stack:</b> TypeScript, Node.js, Next.js, Vitest, GitHub Actions, SARIF, npm
+      </p>
+      <p>
+        <b>Status:</b> <code>v0.3.0</code> published on npm
+      </p>
       <p>
         <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> ·
         <a href="https://www.npmjs.com/package/next-secure-check">npm</a> ·
@@ -58,115 +65,159 @@ I use AI coding tools as support, but I still manage the scope, technical decisi
     <td width="50%" valign="top">
       <h3>Codex Engineering Workflow Pack</h3>
       <p>
-        Local-first engineering workflow toolkit for disciplined Codex/AI-assisted development.
+        Local-first engineering workflow toolkit for disciplined Codex / AI-assisted development.
       </p>
       <p>
-        CEWP is not just a prompt pack. It is my attempt to make AI coding workflows more structured, auditable, and safer.
+        CEWP helps structure AI coding workflows around planning, worktree isolation, guarded dispatch, reviewer gates, policy modes, and adapter foundations.
       </p>
-      <p><b>Core idea:</b> plan → isolate → execute → collect → review → finalize</p>
-      <p><b>Stack:</b> Node.js, JavaScript, CLI, npm, Git Worktree, Markdown, Codex workflows</p>
-      <p><b>Status:</b> <code>v0.2.0-beta.1</code> published on npm · 10 Codex skills · <code>cewp</code> CLI · Coordinator Mode runtime</p>
-      <p><b>Includes:</b> worktree isolation, worker/reviewer roles, guarded dispatch, file-scope rules, policy modes, collect/review/finalize helpers, and smoke tests</p>
+      <p>
+        <b>Core flow:</b>
+        <br />
+        plan → isolate → execute → collect → review → finalize
+      </p>
+      <p>
+        <b>Stack:</b> Node.js, JavaScript, CLI, npm, Git Worktree, Markdown, Codex workflows
+      </p>
+      <p>
+        <b>Status:</b> <code>v0.3.0-beta.0</code> published on npm
+      </p>
       <p>
         <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack">Repository</a> ·
         <a href="https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack">npm</a> ·
-        <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.2.0-beta.1">Release notes</a>
+        <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.3.0-beta.0">Release notes</a>
       </p>
     </td>
   </tr>
 
   <tr>
     <td width="50%" valign="top">
-      <h3>Nihongo Learn</h3>
+      <h3>Pagonic</h3>
       <p>
-        Japanese learning MVP for Turkish speakers with Hiragana/Katakana practice, SM-2 review logic, quizzes, XP/streak tracking, and mini story exercises.
+        Security-aware Python ZIP inspection and safe extraction toolkit.
       </p>
-      <p><b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Zustand, Supabase plan</p>
-      <p><b>Focus:</b> frontend architecture, learning flow, state management, user testing, and language-learning UX</p>
       <p>
-        <a href="https://github.com/SetraTheXX/nihongo-learn">Repository</a>
+        The idea is simple: inspect archives before extracting them. Pagonic focuses on deterministic risk signals, safer extraction gates, and a clearer Safe ZIP Inspector direction.
+      </p>
+      <p>
+        <b>Stack:</b> Python, ZIP tooling, CLI, pytest, optional PyQt6 GUI
+      </p>
+      <p>
+        <b>Status:</b> <code>v0.3.0</code> public alpha
+      </p>
+      <p>
+        <a href="https://github.com/SetraTheXX/pagonic">Repository</a> ·
+        <a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.3.0">Release notes</a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>BioVoid</h3>
+      <h3>Portfolio</h3>
       <p>
-        Experimental computational biology prototype for protein motion, geometry-based cavity analysis, and cryptic pocket exploration.
+        My personal portfolio site for presenting projects, writing, technical direction, and public work.
       </p>
       <p>
-        This is a research-style software prototype, not a clinical, diagnostic, or drug-development system.
+        <b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Framer Motion
       </p>
-      <p><b>Stack:</b> Python, Biopython, ProDy, SciPy, FastAPI</p>
-      <p><b>Focus:</b> PDB parsing, Normal Mode Analysis, cavity scoring, and CLI/API workflow</p>
       <p>
-        <a href="https://github.com/SetraTheXX/BioVoid">Repository</a>
+        <b>Live:</b> <a href="https://setrathex.com.tr">setrathex.com.tr</a>
       </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" valign="top">
-      <h3>setrathex portfolio</h3>
-      <p>
-        Personal portfolio site built to present my projects, learning path, CV, and internship availability.
-      </p>
-      <p><b>Stack:</b> Next.js, TypeScript, Tailwind CSS, Framer Motion</p>
-      <p><b>Live:</b> <a href="https://setrathex.com.tr">setrathex.com.tr</a></p>
       <p>
         <a href="https://github.com/SetraTheXX/setrathex-portfolio">Repository</a>
       </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>More projects</h3>
-      <p>
-        I keep this profile focused on public, working, and explainable projects.
-      </p>
-      <p>
-        Private experiments are added here only after they are ready to be shared with clear documentation, validation, and scope.
-      </p>
-      <p><b>Focus:</b> clean releases, practical demos, better documentation, and stronger validation.</p>
     </td>
   </tr>
 </table>
 
 ---
 
+## Other public work
+
+| Project                                                      | What it is                                                                                                                                       | Stack                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| [Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn) | Japanese learning MVP for Turkish speakers with kana practice, quiz flow, SM-2-style review logic, XP/streak tracking, and mini story exercises. | Next.js, TypeScript, Tailwind, Zustand   |
+| [BioVoid](https://github.com/SetraTheXX/BioVoid)             | Experimental computational biology prototype for protein motion, geometry-based cavity analysis, and cryptic pocket exploration.                 | Python, Biopython, ProDy, SciPy, FastAPI |
+
+---
+
 ## Current focus
 
-Right now I am mainly improving:
-
-* **next-secure-check:** deterministic Next.js security sanity checks, false-positive reduction, SARIF output, CLI UX, and regression fixtures
-* **Codex Engineering Workflow Pack:** local-first Codex skills, Coordinator Mode runtime, policy guardrails, reviewer gates, and multi-worker workflow experiments
-* **Portfolio/CV alignment:** keeping my public projects, README files, portfolio site, and internship profile consistent
+```txt
+next-secure-check  -> better rule quality, lower noise, stronger regression fixtures
+CEWP               -> local-first AI engineering workflows and adapter foundation
+Pagonic            -> Safe ZIP Inspector direction and release hardening
+Portfolio          -> clearer public project presentation
+```
 
 ---
 
 ## Tech stack
 
-**Actively using:** Python · TypeScript · JavaScript · Node.js · Next.js/React · Git/GitHub · SQLite
+**Actively using**
 
-**Tools and platforms:** npm publishing · GitHub Actions · SARIF · Git worktree · CLI development · Windows/PowerShell · Vitest
+```txt
+Python · TypeScript · JavaScript · Node.js · Next.js/React · Git/GitHub · SQLite
+```
 
-**Touched in projects:** FastAPI · Supabase · Oracle Cloud · PM2/Nginx · Docker basics · Tailwind CSS · Biopython/ProDy
+**Tools and platforms**
 
-**Currently strengthening:** SQL · Algorithms and data structures · Debugging · Testing · Code reading · Documentation · Software architecture
+```txt
+npm publishing · GitHub Actions · SARIF · Git worktree · CLI development
+Windows/PowerShell · Linux validation · Vitest · pytest
+```
+
+**Touched in projects**
+
+```txt
+FastAPI · Supabase · Oracle Cloud · PM2/Nginx · Docker basics
+Tailwind CSS · Biopython/ProDy · PyQt6 basics
+```
+
+**Currently strengthening**
+
+```txt
+SQL · algorithms and data structures · debugging · testing
+code reading · documentation · software architecture
+```
 
 ---
 
-## AI-assisted development
+## AI-assisted engineering
 
-I use Codex CLI, Claude Code, GitHub Copilot, Cursor, Gemini, Qwen/GLM, and other AI coding tools for research, planning, code generation, review, debugging, testing, and documentation.
+I use tools such as Codex CLI, Claude Code, GitHub Copilot, Cursor, Gemini, and other AI coding tools as support.
 
-I do not treat AI as an autopilot replacement for software engineering. I still manage the scope, technical decisions, validation, release process, and project direction myself.
+I do not treat AI as a replacement for software engineering.
 
-A lot of my recent work focuses on making AI-assisted development more structured through clear PRDs, smaller implementation slices, TDD/debugging loops, worktree isolation, review gates, explicit file scopes, and human-controlled merge/push/publish steps.
+My recent work focuses on making AI-assisted development more disciplined through:
+
+* clear PRDs and roadmaps
+* small implementation slices
+* TDD/debugging loops
+* worktree-based isolation
+* review gates
+* explicit file scopes
+* human-controlled merge, push, publish, and release steps
 
 ---
 
-## What I am looking for
+## Collaboration
 
-I am open to software development internships, open-source collaboration, and practical developer-tooling projects.
+I am mainly focused on building and improving my own open-source projects.
 
-I am especially interested in developer tools, CLI projects, web applications with clear user value, AI-assisted engineering workflows, automation/productivity tools, security-focused tooling, and research-style software prototypes.
+I am open to:
+
+* technical feedback
+* issue reports
+* open-source collaboration
+* project discussions
+* practical developer-tooling ideas
+
+Areas I care about:
+
+* developer tools and CLI projects
+* security-focused tooling
+* AI-assisted engineering workflows
+* automation and productivity tools
+* web applications with clear user value
+* research-style software prototypes
 
 ---
 
@@ -174,12 +225,12 @@ I am especially interested in developer tools, CLI projects, web applications wi
 
 * Portfolio: [setrathex.com.tr](https://setrathex.com.tr)
 * LinkedIn: [linkedin.com/in/tuncayolmez](https://linkedin.com/in/tuncayolmez)
-* Email: [tuncay123454@gmail.com](mailto:tuncay123454@gmail.com)
 * npm: [npmjs.com/~setrathex](https://www.npmjs.com/~setrathex)
+* Email: [tuncay123454@gmail.com](mailto:tuncay123454@gmail.com)
 * Location: Samsun, Türkiye
 
 <div align="center">
 
-**Open to internships, open-source collaboration, and practical developer-tooling projects.**
+**Building practical developer tools, security-focused CLIs, and local-first AI-assisted engineering workflows.**
 
 </div>
