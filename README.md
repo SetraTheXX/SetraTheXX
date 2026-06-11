@@ -2,7 +2,7 @@
 
 # Hi, I'm Tuncay Ölmez
 
-### Developer Tools Builder &middot; Security-Focused CLI Maintainer &middot; Computer Programming Student
+### Developer Tools Builder · Security-Focused CLI Maintainer · Computer Programming Student
 
 I build practical developer tools, CLI packages, web applications, automation workflows, and structured AI-assisted engineering systems.
 
@@ -10,14 +10,10 @@ I build practical developer tools, CLI packages, web applications, automation wo
 
 <br />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-setrathex.com.tr-7dd3fc?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a)](https://setrathex.com.tr)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
-[![npm](https://img.shields.io/badge/npm-setrathex-cb3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a)](https://www.npmjs.com/~setrathex)
-[![Email](https://img.shields.io/badge/Email-contact-22c55e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
-
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=SetraTheXX&style=for-the-badge&color=0ea5e9&label=Profile+views" alt="Profile views" />
+[![Portfolio](https://img.shields.io/badge/Portfolio-setrathex.com.tr-7dd3fc?style=for-the-badge\&logo=vercel\&logoColor=white\&labelColor=0f172a)](https://setrathex.com.tr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white\&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
+[![npm](https://img.shields.io/badge/npm-setrathex-cb3837?style=for-the-badge\&logo=npm\&logoColor=white\&labelColor=0f172a)](https://www.npmjs.com/~setrathex)
+[![Email](https://img.shields.io/badge/Email-contact-22c55e?style=for-the-badge\&logo=gmail\&logoColor=white\&labelColor=0f172a)](mailto:tuncay123454@gmail.com)
 
 </div>
 
@@ -49,11 +45,11 @@ Location   Samsun, Turkiye
 
 **Currently building**
 
-- `next-secure-check`
-- `Codex Engineering Workflow Pack`
-- `Pagonic`
-- `Nihongo Learn`
-- `BioVoid`
+* `next-secure-check`
+* `Codex Engineering Workflow Pack`
+* `Pagonic`
+* `Nihongo Learn`
+* `BioVoid`
 
 </td>
 </tr>
@@ -71,20 +67,22 @@ Location   Samsun, Turkiye
 
 Deterministic security checks for Next.js projects before PR or deploy. Built for practical review signals around leaked secrets, risky API routes, weak config, XSS patterns, raw SQL patterns, and missing safeguards.
 
-**Stack:** TypeScript &middot; Node.js &middot; Next.js &middot; Vitest &middot; SARIF &middot; GitHub Actions  
-**Status:** `v0.3.0` on npm &middot; rule-based &middot; no AI at runtime  
-**Links:** [Repository](https://github.com/SetraTheXX/next-secure-check) &middot; [npm](https://www.npmjs.com/package/next-secure-check)
+**Stack:** TypeScript · Node.js · Next.js · Vitest · SARIF · GitHub Actions
+**Status:** `v0.3.0` on npm · rule-based · no AI at runtime
+**Links:** [Repository](https://github.com/SetraTheXX/next-secure-check) · [npm](https://www.npmjs.com/package/next-secure-check)
 
 </td>
 <td width="50%" valign="top">
 
 ### Codex Engineering Workflow Pack
 
-Local-first workflow toolkit for disciplined Codex / AI-assisted development. It turns AI coding into a structured process with planning, isolation, worker/reviewer flows, policy guardrails, and review gates.
+Local-first workflow toolkit for disciplined Codex / AI-assisted development. It turns AI coding into a structured process with planning, worktree isolation, worker/reviewer flows, policy guardrails, adapter config, and review gates.
 
-**Stack:** Node.js &middot; JavaScript &middot; CLI &middot; npm &middot; Git Worktree &middot; Markdown  
-**Status:** `v0.3.0-beta.0` on npm &middot; Coordinator Mode &middot; adapter foundation  
-**Links:** [Repository](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack) &middot; [npm](https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack)
+**Core flow:** plan → isolate → execute → collect → review → finalize
+**Stack:** Node.js · JavaScript · CLI · npm · Git Worktree · Markdown
+**Status:** `v0.3.1-beta.0` on npm · Coordinator Mode · adapter config hardening
+**Includes:** optional `cewp.config.json`, `cewp doctor` adapter summary, `cewp init --with-config`, package surface guards
+**Links:** [Repository](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack) · [npm](https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack) · [Release notes](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.3.1-beta.0)
 
 </td>
 </tr>
@@ -95,8 +93,8 @@ Local-first workflow toolkit for disciplined Codex / AI-assisted development. It
 
 Security-aware Python ZIP inspection and safe extraction toolkit. The core idea is simple: inspect archives before extracting them, with deterministic risk signals and safer extraction gates.
 
-**Stack:** Python &middot; ZIP tooling &middot; CLI &middot; pytest &middot; optional PyQt6 GUI  
-**Status:** `v0.3.0` public alpha  
+**Stack:** Python · ZIP tooling · CLI · pytest · optional PyQt6 GUI
+**Status:** `v0.3.0` public alpha
 **Links:** [Repository](https://github.com/SetraTheXX/pagonic)
 
 </td>
@@ -106,8 +104,8 @@ Security-aware Python ZIP inspection and safe extraction toolkit. The core idea 
 
 Japanese learning MVP for Turkish speakers with kana practice, SM-2 review logic, quizzes, XP/streak tracking, mini stories, and N5-style practice.
 
-**Stack:** Next.js &middot; TypeScript &middot; Tailwind CSS &middot; Zustand &middot; Supabase plan  
-**Focus:** learning flow &middot; frontend architecture &middot; state management  
+**Stack:** Next.js · TypeScript · Tailwind CSS · Zustand · Supabase plan
+**Focus:** learning flow · frontend architecture · state management
 **Links:** [Repository](https://github.com/SetraTheXX/nihongo-learn)
 
 </td>
@@ -119,8 +117,8 @@ Japanese learning MVP for Turkish speakers with kana practice, SM-2 review logic
 
 Experimental computational biology prototype for protein motion, geometry-based cavity analysis, Atlas indexing, and FastAPI/React exploration.
 
-**Stack:** Python &middot; Biopython &middot; ProDy &middot; SciPy &middot; FastAPI &middot; SQLite  
-**Note:** research-style prototype, not a clinical or diagnostic system  
+**Stack:** Python · Biopython · ProDy · SciPy · FastAPI · SQLite
+**Note:** research-style prototype, not a clinical or diagnostic system
 **Links:** [Repository](https://github.com/SetraTheXX/BioVoid)
 
 </td>
@@ -130,8 +128,8 @@ Experimental computational biology prototype for protein motion, geometry-based 
 
 Personal portfolio site for presenting projects, learning path, technical direction, and public work.
 
-**Stack:** Next.js &middot; TypeScript &middot; Tailwind CSS &middot; Framer Motion  
-**Live:** [setrathex.com.tr](https://setrathex.com.tr)  
+**Stack:** Next.js · TypeScript · Tailwind CSS · Framer Motion
+**Live:** [setrathex.com.tr](https://setrathex.com.tr)
 **Links:** [Repository](https://github.com/SetraTheXX/setrathex-portfolio)
 
 </td>
@@ -157,8 +155,8 @@ Personal portfolio site for presenting projects, learning path, technical direct
   <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="42" height="42" /></a>
 </p>
 
-**Actively using:** Python, TypeScript, JavaScript, Node.js, Next.js/React, Git/GitHub, SQLite  
-**Tools:** npm publishing, GitHub Actions, SARIF, Git worktree, CLI development, PowerShell, Linux validation, Vitest, pytest  
+**Actively using:** Python, TypeScript, JavaScript, Node.js, Next.js/React, Git/GitHub, SQLite
+**Tools:** npm publishing, GitHub Actions, SARIF, Git worktree, CLI development, PowerShell, Linux, Vitest, pytest
 **Currently strengthening:** SQL, algorithms and data structures, debugging, testing, code reading, documentation, software architecture
 
 ---
@@ -180,11 +178,11 @@ Personal portfolio site for presenting projects, learning path, technical direct
 
 ## What I am building toward
 
-- Better security-focused developer tools for real project workflows
-- Local-first AI-assisted engineering systems with clearer review gates
-- Reliable CLI packages with tests, release notes, and practical docs
-- Web apps that are small enough to ship and useful enough to maintain
-- A stronger public portfolio around open-source work and internship readiness
+* Better security-focused developer tools for real project workflows
+* Local-first AI-assisted engineering systems with clearer review gates
+* Reliable CLI packages with tests, release notes, and practical docs
+* Web apps that are small enough to ship and useful enough to maintain
+* A stronger public portfolio around open-source projects and practical tools
 
 ---
 
@@ -192,7 +190,7 @@ Personal portfolio site for presenting projects, learning path, technical direct
 
 <div align="center">
 
-[Portfolio](https://setrathex.com.tr) &middot; [LinkedIn](https://linkedin.com/in/tuncayolmez) &middot; [npm](https://www.npmjs.com/~setrathex) &middot; [Email](mailto:tuncay123454@gmail.com)
+[Portfolio](https://setrathex.com.tr) · [LinkedIn](https://linkedin.com/in/tuncayolmez) · [npm](https://www.npmjs.com/~setrathex) · [Email](mailto:tuncay123454@gmail.com)
 
 **Building practical developer tools, security-focused CLIs, and local-first AI-assisted engineering workflows.**
 
