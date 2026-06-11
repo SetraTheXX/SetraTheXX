@@ -40,7 +40,7 @@ AI is part of my workflow, but not an autopilot. I still own the scope, technica
 Focus      Developer tooling, web security, AI workflows
 Shipping   npm packages, CLIs, web apps, prototypes
 Learning   SQL, algorithms, testing, architecture
-Location   Samsun, Turkiye
+Location   Samsun, Türkiye
 ```
 
 **Currently building**
@@ -63,74 +63,88 @@ Location   Samsun, Turkiye
 <tr>
 <td width="50%" valign="top">
 
-### next-secure-check
+<h3>next-secure-check</h3>
 
+<p>
 Deterministic security checks for Next.js projects before PR or deploy. Built for practical review signals around leaked secrets, risky API routes, weak config, XSS patterns, raw SQL patterns, and missing safeguards.
+</p>
 
-**Stack:** TypeScript · Node.js · Next.js · Vitest · SARIF · GitHub Actions
-**Status:** `v0.3.0` on npm · rule-based · no AI at runtime
-**Links:** [Repository](https://github.com/SetraTheXX/next-secure-check) · [npm](https://www.npmjs.com/package/next-secure-check)
+<p><b>Stack:</b> TypeScript &middot; Node.js &middot; Next.js &middot; Vitest &middot; SARIF &middot; GitHub Actions</p>
+<p><b>Status:</b> <code>v0.3.0</code> on npm &middot; rule-based &middot; no AI at runtime</p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/next-secure-check">Repository</a> &middot; <a href="https://www.npmjs.com/package/next-secure-check">npm</a></p>
 
 </td>
 <td width="50%" valign="top">
 
-### Codex Engineering Workflow Pack
+<h3>Codex Engineering Workflow Pack</h3>
 
-Local-first workflow toolkit for disciplined Codex / AI-assisted development. It turns AI coding into a structured process with planning, worktree isolation, worker/reviewer flows, policy guardrails, adapter config, and review gates.
+<p>
+Local-first workflow toolkit for disciplined Codex / AI-assisted development.
+</p>
 
-**Core flow:** plan → isolate → execute → collect → review → finalize
-**Stack:** Node.js · JavaScript · CLI · npm · Git Worktree · Markdown
-**Status:** `v0.3.1-beta.0` on npm · Coordinator Mode · adapter config hardening
-**Includes:** optional `cewp.config.json`, `cewp doctor` adapter summary, `cewp init --with-config`, package surface guards
-**Links:** [Repository](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack) · [npm](https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack) · [Release notes](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.3.1-beta.0)
+<p>
+It structures AI coding around planning, worktree isolation, worker/reviewer flows, policy guardrails, adapter config, and review gates.
+</p>
+
+<p><b>Stack:</b> Node.js &middot; JavaScript &middot; CLI &middot; npm &middot; Git Worktree &middot; Markdown</p>
+<p><b>Status:</b> <code>v0.3.1-beta.0</code> on npm &middot; Coordinator Mode &middot; adapter config hardening</p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack">Repository</a> &middot; <a href="https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack">npm</a> &middot; <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.3.1-beta.0">Release notes</a></p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Pagonic
+<h3>Pagonic</h3>
 
+<p>
 Security-aware Python ZIP inspection and safe extraction toolkit. The core idea is simple: inspect archives before extracting them, with deterministic risk signals and safer extraction gates.
+</p>
 
-**Stack:** Python · ZIP tooling · CLI · pytest · optional PyQt6 GUI
-**Status:** `v0.3.0` public alpha
-**Links:** [Repository](https://github.com/SetraTheXX/pagonic)
+<p><b>Stack:</b> Python &middot; ZIP tooling &middot; CLI &middot; pytest &middot; optional PyQt6 GUI</p>
+<p><b>Status:</b> <code>v0.3.0</code> public alpha</p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/pagonic">Repository</a></p>
 
 </td>
 <td width="50%" valign="top">
 
-### Nihongo Learn
+<h3>Nihongo Learn</h3>
 
+<p>
 Japanese learning MVP for Turkish speakers with kana practice, SM-2 review logic, quizzes, XP/streak tracking, mini stories, and N5-style practice.
+</p>
 
-**Stack:** Next.js · TypeScript · Tailwind CSS · Zustand · Supabase plan
-**Focus:** learning flow · frontend architecture · state management
-**Links:** [Repository](https://github.com/SetraTheXX/nihongo-learn)
+<p><b>Stack:</b> Next.js &middot; TypeScript &middot; Tailwind CSS &middot; Zustand &middot; Supabase plan</p>
+<p><b>Focus:</b> learning flow &middot; frontend architecture &middot; state management</p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/nihongo-learn">Repository</a></p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### BioVoid
+<h3>BioVoid</h3>
 
+<p>
 Experimental computational biology prototype for protein motion, geometry-based cavity analysis, Atlas indexing, and FastAPI/React exploration.
+</p>
 
-**Stack:** Python · Biopython · ProDy · SciPy · FastAPI · SQLite
-**Note:** research-style prototype, not a clinical or diagnostic system
-**Links:** [Repository](https://github.com/SetraTheXX/BioVoid)
+<p><b>Stack:</b> Python &middot; Biopython &middot; ProDy &middot; SciPy &middot; FastAPI &middot; SQLite</p>
+<p><b>Note:</b> research-style prototype, not a clinical or diagnostic system</p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/BioVoid">Repository</a></p>
 
 </td>
 <td width="50%" valign="top">
 
-### setrathex portfolio
+<h3>setrathex portfolio</h3>
 
+<p>
 Personal portfolio site for presenting projects, learning path, technical direction, and public work.
+</p>
 
-**Stack:** Next.js · TypeScript · Tailwind CSS · Framer Motion
-**Live:** [setrathex.com.tr](https://setrathex.com.tr)
-**Links:** [Repository](https://github.com/SetraTheXX/setrathex-portfolio)
+<p><b>Stack:</b> Next.js &middot; TypeScript &middot; Tailwind CSS &middot; Framer Motion</p>
+<p><b>Live:</b> <a href="https://setrathex.com.tr">setrathex.com.tr</a></p>
+<p><b>Links:</b> <a href="https://github.com/SetraTheXX/setrathex-portfolio">Repository</a></p>
 
 </td>
 </tr>
