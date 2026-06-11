@@ -175,21 +175,6 @@ Personal portfolio site for presenting projects, learning path, technical direct
 
 ---
 
-## GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SetraTheXX&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SetraTheXX&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=SetraTheXX&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
-
-</div>
-
----
-
 ## What I am building toward
 
 * Better security-focused developer tools for real project workflows
