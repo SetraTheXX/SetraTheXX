@@ -175,6 +175,16 @@ Personal portfolio site for presenting projects, learning path, technical direct
 
 ---
 
+## GitHub activity
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=SetraTheXX&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+
+</div>
+
+---
+
 ## What I am building toward
 
 * Better security-focused developer tools for real project workflows
