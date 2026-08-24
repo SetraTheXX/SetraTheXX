@@ -2,11 +2,11 @@
 
 # Tuncay Ölmez
 
-### Computer Programming Student · Developer Tools · Web Security · AI-Assisted Engineering
+### Computer Programming Student · Developer Tooling · Application Security · Systems
 
-I build developer tools, security-focused automation, local-first applications,
-and research prototypes while learning software engineering through real,
-testable projects.
+Building deterministic developer tools, security-focused automation, and
+local-first software through projects that are testable, documented, and built
+to be maintained.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tuncayolmez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a)](https://linkedin.com/in/tuncayolmez)
 [![npm](https://img.shields.io/badge/npm-setrathex-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a)](https://www.npmjs.com/~setrathex)
@@ -16,132 +16,120 @@ testable projects.
 
 ---
 
-## About me
+## Profile
 
 I am a Computer Programming student at Ondokuz Mayıs University in Samsun,
-Türkiye. Most of my projects start as questions I want to investigate or tools
-I want to use myself. I try to take them beyond quick demos with clear scope,
-tests, documentation, and honest limitations.
+Türkiye. I mainly work on developer tooling, application security, Linux/Rust
+utilities, and local-first software.
 
-My current work spans developer tooling, web security, AI-assisted engineering
-workflows, Linux diagnostics, local-first applications, computational research,
-and game-development experiments.
+I try to move projects beyond prototypes with explicit scope, automated tests,
+CI, documentation, and reproducible verification. AI-assisted tools are part of
+my engineering workflow, but testing, review, and runtime verification remain
+explicit gates.
 
-AI is part of my workflow for planning, implementation support, iteration, and
-review. Generated output is never treated as finished work by default: runtime
-behavior, tests, documentation, and manual verification still matter.
+## Focus
 
-## What I'm working on
+| Area | Current direction |
+| --- | --- |
+| **Developer tooling & security** | Static analysis, CLI design, CI integration, SARIF, archive safety, secure automation, and false-positive reduction. |
+| **Engineering workflows** | Bounded execution, isolated worktrees, verification gates, independent review, recovery controls, and evidence-based automation. |
+| **Systems & local-first software** | Rust/Linux tooling, Python and TypeScript applications, SQLite-backed workflows, desktop software, and system diagnostics. |
+| **Experiments** | Computational research, Godot/C#, Three.js, interaction systems, simulation, and game-development prototypes. |
 
-- **Developer tooling and security** — deterministic scanners, CLI design, CI
-  integration, SARIF, archive safety, and automation.
-- **AI-assisted engineering** — bounded scope, isolated worktrees, verification
-  gates, recovery, independent review, and evidence receipts.
-- **Systems and local-first software** — Rust/Linux tooling, Python and
-  TypeScript applications, SQLite-backed workflows, and desktop experiments.
-- **Research and game experiments** — reproducible geometry-based analysis,
-  Godot/C# exploration, Three.js, interaction, simulation, and visual systems.
+## Selected work
 
-# Selected projects
-
-## [PortalDoctor](https://github.com/SetraTheXX/Portal-Doctor)
-
-A read-only, deterministic Rust CLI for diagnosing XDG Desktop Portal, Wayland
-session, D-Bus, and systemd user-integration issues on Linux. It normalizes
-environment, configuration, routing, and runtime evidence into actionable
-terminal or JSON findings without modifying the system.
-
-**Status:** `v0.1.0` release-preparation baseline (not tagged yet) · 15
-deterministic findings · Rust 2024 CLI · Ubuntu 26.04 + GNOME + Wayland
-validation
-
----
-
-## [next-secure-check](https://github.com/SetraTheXX/next-secure-check)
+### [next-secure-check](https://github.com/SetraTheXX/next-secure-check)
 
 [![npm](https://img.shields.io/npm/v/next-secure-check?style=flat-square&label=npm)](https://www.npmjs.com/package/next-secure-check)
 [![CI](https://github.com/SetraTheXX/next-secure-check/actions/workflows/security-check.yml/badge.svg)](https://github.com/SetraTheXX/next-secure-check/actions/workflows/security-check.yml)
 
-A deterministic, Next.js-focused static security scanner for pre-deploy review
-and CI. It uses rule-based matching, syntax-level AST analysis, and file
-context without executing repository code or using AI at runtime.
+Deterministic static security analysis for Next.js projects.
 
-**Current:** `v0.4.1` published on npm · 20 built-in rules · 466 total tests ·
-Node.js 20+ · context-aware presets · bounded same-function analysis ·
-terminal/JSON/Markdown/GitHub/SARIF output · `rules`, `explain`, and `init` CLI
-commands
+It combines rule-based detection, syntax-level AST analysis, and file context
+for pre-deploy and CI review without executing repository code or using AI at
+runtime.
+
+**Current:** `v0.4.1` published on npm · 20 built-in rules · 466 tests ·
+Node.js 20+ · bounded same-function analysis · context-aware presets ·
+terminal / JSON / Markdown / GitHub / SARIF output · `rules`, `explain`, and
+`init` commands
 
 ---
 
-## [Codex Engineering Workflow Pack](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
+### [Codex Engineering Workflow Pack](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
 
 [![npm](https://img.shields.io/npm/v/%40setrathex%2Fcodex-engineering-workflow-pack?style=flat-square&label=npm)](https://www.npmjs.com/package/@setrathex/codex-engineering-workflow-pack)
 [![CI](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/actions/workflows/ci.yml/badge.svg)](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/actions/workflows/ci.yml)
 
-A local-first supervision and evidence layer for Codex. CEWP adds explicit
-scope, isolated worktrees, bounded operations, deterministic verification,
-independent review, recovery controls, and portable receipts while leaving code
-generation to Codex.
+A local-first supervision and evidence layer for Codex.
+
+CEWP adds explicit scope, isolated worktrees, bounded operations, deterministic
+verification, independent review, recovery controls, workflow orchestration,
+and portable evidence receipts.
 
 **Current:** `v0.14.0-beta.1` · Node.js 22+ · npm beta CLI · Codex plugin ·
 local MCP bridge · supervised checkpoints · Coordinator Mode · versioned
-workflow runtime · evidence receipts
+workflow runtime
 
 ---
 
-## [BioVoid](https://github.com/SetraTheXX/BioVoid)
+### [PortalDoctor](https://github.com/SetraTheXX/Portal-Doctor)
 
-A local computational research prototype for preparing protein structures,
-detecting geometry-based pocket candidates, and inspecting versioned heuristic
-measurements through a FastAPI/React application.
+A read-only Rust diagnostic CLI for XDG Desktop Portal, Wayland sessions,
+D-Bus, and systemd user integration.
 
-**Status:** public source baseline `v0.1.0` · Python 3.12–3.13 · full-heavy-atom
-preparation with hashes and manifests · canonical static geometry path ·
-quality-gated experimental NMA · SQLite Atlas · bounded Mol* viewer spike
+It turns environment, configuration, routing, and runtime evidence into
+deterministic terminal or JSON findings without modifying the system.
+
+**Status:** `v0.1.0` release-preparation baseline (not tagged yet) · Rust 2024 ·
+15 deterministic findings · Ubuntu 26.04 + GNOME + Wayland + systemd user
+session validation
+
+---
+
+### [Pagonic](https://github.com/SetraTheXX/pagonic)
+
+A security-aware Python ZIP inspection and safe-extraction toolkit.
+
+> **Inspect before you extract.**
+
+Pagonic detects path traversal, suspicious entries, extreme compression ratios,
+unsupported methods, and structural archive problems before extraction.
+
+**Current:** `v0.3.0` alpha · local installation only · no PyPI or TestPyPI
+package published yet · Python library · CLI · optional PyQt6 GUI ·
+safe-extraction gates · JSON / Markdown reports
+
+---
+
+## Open-source contribution
+
+### [Ship Safe — MCP/OAuth security checks](https://github.com/asamassekou10/ship-safe/pull/161)
+
+Contributed four conservative MCP/OAuth security detections covering token
+passthrough, audience validation, dynamic client registration, and PKCE
+handling.
+
+**Status:** merged into `main` after maintainer review, false-positive
+hardening, regression testing, and multi-language validation.
+
+## Other work
+
+- **[BioVoid](https://github.com/SetraTheXX/BioVoid)** — `v0.1.0` public source
+  baseline for local protein-structure preparation and geometry-based pocket
+  analysis.
+- **[Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)** —
+  Japanese-learning MVP for Turkish-speaking beginners with local spaced
+  repetition, lessons, quizzes, and optional cloud sync.
+- **[Portfolio source](https://github.com/SetraTheXX/setrathex-portfolio)** —
+  Next.js/TypeScript source for a bilingual personal portfolio.
+- **Game experiments** — Godot/C#, Three.js, interaction systems, combat,
+  simulation, and visual prototyping.
 
 > BioVoid is a research prototype, not a clinical, diagnostic, validated
 > binding-prediction, or drug-development system.
 
----
-
-## [Pagonic](https://github.com/SetraTheXX/pagonic)
-
-A security-aware Python ZIP inspection and safe-extraction toolkit built around
-one principle:
-
-> **Inspect before you extract.**
-
-It provides deterministic archive risk reports, a Python library, the
-`inspect`/`verify`/`safe-extract` CLI workflow, and an optional PyQt6 GUI.
-
-**Current:** `v0.3.0` alpha · path-traversal and archive-risk checks · gated safe
-extraction · JSON/Markdown reports · local installation (no PyPI or TestPyPI
-package published yet)
-
----
-
-## [Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)
-
-A Japanese-learning MVP for Turkish-speaking beginners, built with Next.js,
-TypeScript, Tailwind CSS, Zustand, and optional Supabase sync.
-
-**Current:** pre-Phase 4 stabilization · 46 Hiragana + 46 Katakana characters ·
-31-lesson A1 course · local SM-2 reviews · XP, streaks, quests, and badges ·
-mini stories · N5 exam practice · kana drawing · optional authentication and
-cloud sync
-
----
-
-## [Portfolio source](https://github.com/SetraTheXX/setrathex-portfolio)
-
-Standalone Next.js source for a bilingual personal portfolio, including
-project cards, writing links, a command menu, CV actions, and responsive mobile
-navigation.
-
-**Stack:** Next.js 14 App Router · TypeScript · Tailwind CSS · Framer Motion ·
-`lucide-react` · pnpm
-
-## Languages and tools
+## Languages & tools
 
 <p align="center">
 
@@ -165,8 +153,12 @@ navigation.
 
 </p>
 
-**Main stack:** TypeScript, Python, Rust, Node.js, Next.js/React, FastAPI,
-SQLite, GitHub Actions, npm, Docker, and Linux tooling.
+<div align="center">
+
+TypeScript · Python · Rust · Node.js · Next.js/React · FastAPI · SQLite ·
+GitHub Actions · Docker · Linux
+
+</div>
 
 **Currently expanding into:** C#, Godot, Three.js, Tauri, game systems,
 desktop applications, and lower-level software architecture.
