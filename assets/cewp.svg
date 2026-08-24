@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="190" viewBox="0 0 600 190" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Engineering Workflow Pack</title>
+  <desc id="desc">Controlled Codex execution with scope, verification, review, recovery, and evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#100d20"/><stop offset="1" stop-color="#24143f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#c4b5fd" stroke-opacity="0.05"/></pattern>
+  </defs>
+  <rect width="600" height="190" rx="24" fill="url(#bg)"/>
+  <rect width="600" height="190" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="598" height="188" rx="23" fill="none" stroke="#4c1d95"/>
+  <circle cx="83" cy="82" r="46" fill="#261443" stroke="#6d28d9"/>
+  <path d="M60 63h46M60 82h46M60 101h46" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="63" r="7" fill="#8b5cf6"/><circle cx="106" cy="82" r="7" fill="#a78bfa"/><circle cx="60" cy="101" r="7" fill="#c084fc"/>
+  <path d="M60 70v24M106 70v5" stroke="#8b5cf6" stroke-width="3"/>
+  <text x="151" y="58" fill="#c4b5fd" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.5">AI ENGINEERING CONTROL</text>
+  <text x="151" y="94" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="29" font-weight="750">CEWP</text>
+  <text x="151" y="122" fill="#a8a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16">Controlled Codex execution with evidence</text>
+  <rect x="151" y="140" width="155" height="29" rx="14.5" fill="#24113c" stroke="#5b21b6"/>
+  <text x="168" y="160" fill="#ede9fe" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">v0.14.0-beta.1</text>
+  <rect x="316" y="140" width="102" height="29" rx="14.5" fill="#24113c" stroke="#5b21b6"/>
+  <text x="335" y="160" fill="#ddd6fe" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">Codex plugin</text>
+  <rect x="428" y="140" width="99" height="29" rx="14.5" fill="#24113c" stroke="#5b21b6"/>
+  <text x="447" y="160" fill="#ddd6fe" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">local MCP</text>
+</svg>
