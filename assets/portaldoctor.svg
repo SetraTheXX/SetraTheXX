@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="190" viewBox="0 0 600 190" role="img" aria-labelledby="title desc">
+  <title id="title">PortalDoctor</title>
+  <desc id="desc">Read-only Linux diagnostics for XDG Desktop Portal, Wayland, D-Bus, and systemd user sessions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081612"/><stop offset="1" stop-color="#0d2b24"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#34d399"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#6ee7b7" stroke-opacity="0.05"/></pattern>
+  </defs>
+  <rect width="600" height="190" rx="24" fill="url(#bg)"/>
+  <rect width="600" height="190" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="598" height="188" rx="23" fill="none" stroke="#14532d"/>
+  <circle cx="83" cy="82" r="46" fill="#082f28" stroke="#047857"/>
+  <rect x="51" y="53" width="64" height="54" rx="8" fill="none" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M51 68h64" stroke="#34d399" stroke-width="4"/>
+  <circle cx="61" cy="61" r="3" fill="#6ee7b7"/><circle cx="71" cy="61" r="3" fill="#2dd4bf"/>
+  <path d="M59 88h10l6-12 10 24 8-18 6 6h10" fill="none" stroke="#d1fae5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="151" y="58" fill="#6ee7b7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.5">LINUX DIAGNOSTICS</text>
+  <text x="151" y="94" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="29" font-weight="750">PortalDoctor</text>
+  <text x="151" y="122" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16">Explain XDG portal failures without changing the system</text>
+  <rect x="151" y="140" width="89" height="29" rx="14.5" fill="#0b2921" stroke="#047857"/>
+  <text x="169" y="160" fill="#d1fae5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">Rust 2024</text>
+  <rect x="250" y="140" width="98" height="29" rx="14.5" fill="#0b2921" stroke="#047857"/>
+  <text x="268" y="160" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">15 findings</text>
+  <rect x="358" y="140" width="117" height="29" rx="14.5" fill="#0b2921" stroke="#047857"/>
+  <text x="376" y="160" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">read-only CLI</text>
+</svg>
