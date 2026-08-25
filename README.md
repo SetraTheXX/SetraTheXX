@@ -7,11 +7,26 @@
 I build tools that turn vague engineering risk into evidence you can inspect:
 deterministic findings, bounded workflows, and read-only diagnostics.
 
-[LinkedIn](https://linkedin.com/in/tuncayolmez) ·
-[npm](https://www.npmjs.com/~setrathex) ·
-[Email](mailto:tuncay123454@gmail.com)
+<p>
+  <a href="https://linkedin.com/in/tuncayolmez"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linkedin/linkedin-original.svg" height="26" alt="LinkedIn" title="LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="https://www.npmjs.com/~setrathex"><img src="https://cdn.simpleicons.org/npm/CB3837" height="26" alt="npm" title="npm" /></a>&nbsp;&nbsp;
+  <a href="mailto:tuncay123454@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" height="26" alt="Email" title="Email" /></a>
+</p>
 
 </div>
+
+---
+
+## About me
+
+I am a Computer Programming student at Ondokuz Mayıs University in Samsun,
+Türkiye. Most of my projects begin as something I want to understand or use,
+then move beyond the demo stage through tests, documentation, CI, explicit
+limitations, and reproducible verification.
+
+AI-assisted tools are part of my planning and implementation workflow, but they
+do not get the final say. Runtime behavior, automated checks, manual review, and
+honest evidence remain the release gates.
 
 ---
 
@@ -113,26 +128,26 @@ testing, and multi-language validation.
 
 ## Toolbox
 
-**Languages:** TypeScript, JavaScript, Python, Rust, C#<br />
-**Backend & web:** Node.js, Next.js/React, FastAPI, SQLite<br />
-**Tooling:** Git, GitHub Actions, Docker, npm<br />
-**Currently exploring:** Godot/C#, Three.js, Tauri, game systems, and lower-level software architecture
+**Languages**
 
-## About me
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,py,rust,cs&perline=5&theme=dark" alt="TypeScript, JavaScript, Python, Rust, and C#" />
+</p>
 
-I am a Computer Programming student at Ondokuz Mayıs University in Samsun,
-Türkiye. Most of my projects begin as something I want to understand or use,
-then move beyond the demo stage through tests, documentation, CI, explicit
-limitations, and reproducible verification.
+**Web & backend**
 
-AI-assisted tools are part of my planning and implementation workflow, but they
-do not get the final say. Runtime behavior, automated checks, manual review, and
-honest evidence remain the release gates.
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,sqlite&perline=5&theme=dark" alt="Node.js, Next.js, React, FastAPI, and SQLite" />
+</p>
 
-<div align="center">
+**Tooling**
 
-[LinkedIn](https://linkedin.com/in/tuncayolmez) ·
-[npm](https://www.npmjs.com/~setrathex) ·
-[Email](mailto:tuncay123454@gmail.com)
+<p>
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,npm&perline=4&theme=dark" alt="Git, GitHub Actions, Docker, and npm" />
+</p>
 
-</div>
+**Currently exploring**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=godot,threejs,tauri&perline=3&theme=dark" alt="Godot, Three.js, and Tauri" />
+</p>
