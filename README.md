@@ -128,26 +128,20 @@ testing, and multi-language validation.
 
 ## Toolbox
 
-**Languages**
+**Core**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,py,rust,cs&perline=5&theme=dark" alt="TypeScript, JavaScript, Python, Rust, and C#" />
+  <img src="https://skillicons.dev/icons?i=ts,py,rust&perline=3&theme=dark" alt="TypeScript, Python, and Rust" />
 </p>
 
-**Web & backend**
+**Runtime & application stack**
 
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,sqlite&perline=5&theme=dark" alt="Node.js, Next.js, React, FastAPI, and SQLite" />
 </p>
 
-**Tooling**
+**Engineering tooling**
 
 <p>
   <img src="https://skillicons.dev/icons?i=git,githubactions,docker,npm&perline=4&theme=dark" alt="Git, GitHub Actions, Docker, and npm" />
-</p>
-
-**Currently exploring**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=godot,threejs,tauri&perline=3&theme=dark" alt="Godot, Three.js, and Tauri" />
 </p>
