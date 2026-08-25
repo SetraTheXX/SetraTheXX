@@ -38,7 +38,7 @@ honest evidence remain the release gates.
       <h3>next-secure-check</h3>
       Catches common Next.js security mistakes before deployment without executing the target repository or calling an LLM at scan time. Produces deterministic findings for local review, CI, and SARIF-compatible code scanning.
       <br /><br />
-      <strong>Current:</strong> <code>v0.4.1</code> on npm · <code>20 rules</code> · <code>466 tests</code><br />
+      <strong>Current:</strong> <code>v0.4.1</code> on npm · GitHub Marketplace Action · <code>20 rules</code> · <code>466 tests</code><br />
       <code>TypeScript</code> <code>AST-assisted</code> <code>SARIF 2.1.0</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/next-secure-check"><strong>View repository →</strong></a>
