@@ -75,26 +75,12 @@ honest evidence remain the release gates.
   </tr>
 </table>
 
-## Open-source contributions
-
-Contributed four conservative MCP/OAuth security detections to Ship Safe. The
-work was merged after maintainer review, false-positive hardening, regression
-testing, and multi-language validation.
+## Merged open-source contributions
 
 | Project | Pull request | Focus |
 | --- | --- | --- |
 | Ship Safe | [#161](https://github.com/asamassekou10/ship-safe/pull/161) | MCP/OAuth security checks |
-
-<details>
-<summary><strong>View contribution details</strong></summary>
-<br />
-
-- **Token passthrough** — detects unsafe upstream token forwarding.
-- **Audience validation** — checks that tokens are intended for the receiving service.
-- **Dynamic client registration** — flags unsafe or overly permissive registration flows.
-- **PKCE handling** — checks that public-client authorization flows enforce the expected protection.
-
-</details>
+| OWASP Noir | [#2657](https://github.com/owasp-noir/noir/pull/2657) | Vercel specification analyzer functional coverage |
 
 ## More work
 
