@@ -67,7 +67,7 @@ honest evidence remain the release gates.
       <h3>Pagonic</h3>
       Inspects ZIP archives for path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before extraction. Available as a Python library and CLI from a local checkout.
       <br /><br />
-      <strong>Current:</strong> <code>v0.3.0 alpha</code> · local installation · no PyPI release yet<br />
+      <strong>Current:</strong> <code>v0.4.0 alpha</code> · GitHub release · no PyPI package yet<br />
       <code>Python</code> <code>CLI</code> <code>safe extraction</code> <code>JSON + Markdown</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/pagonic"><strong>View repository →</strong></a>
