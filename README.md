@@ -39,7 +39,7 @@ deterministic findings, bounded workflows, and read-only diagnostics.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/SetraTheXX/next-secure-check">next-secure-check</a></h3>
+      <h3>next-secure-check</h3>
       Catches common Next.js security mistakes before deployment without executing the target repository or calling an LLM at scan time. Produces deterministic findings for local review, CI, and SARIF-compatible code scanning.
       <br /><br />
       <strong>Current:</strong> <code>v0.4.1</code> on npm · <code>20 rules</code> · <code>466 tests</code><br />
@@ -48,7 +48,7 @@ deterministic findings, bounded workflows, and read-only diagnostics.
       <a href="https://github.com/SetraTheXX/next-secure-check"><strong>View repository →</strong></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack">Codex Engineering Workflow Pack</a></h3>
+      <h3>Codex Engineering Workflow Pack</h3>
       Adds an engineering control plane around Codex: approved scope, isolated execution, operation budgets, verification outside the model loop, independent review, recovery, and portable evidence receipts.
       <br /><br />
       <strong>Current:</strong> <code>v0.14.0-beta.1</code> · npm beta<br />
@@ -59,7 +59,7 @@ deterministic findings, bounded workflows, and read-only diagnostics.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/SetraTheXX/Portal-Doctor">PortalDoctor</a></h3>
+      <h3>PortalDoctor</h3>
       Reconstructs XDG portal routing and checks D-Bus and systemd reachability so Linux desktop-integration failures become actionable findings. Read-only by design, with no telemetry or runtime AI.
       <br /><br />
       <strong>Status:</strong> <code>v0.1.0 release-preparation baseline</code> · not tagged<br />
@@ -68,7 +68,7 @@ deterministic findings, bounded workflows, and read-only diagnostics.
       <a href="https://github.com/SetraTheXX/Portal-Doctor"><strong>View repository →</strong></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/SetraTheXX/pagonic">Pagonic</a></h3>
+      <h3>Pagonic</h3>
       Inspects ZIP archives for path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before extraction. Available as a Python library and CLI from a local checkout.
       <br /><br />
       <strong>Current:</strong> <code>v0.3.0 alpha</code> · local installation · no PyPI release yet<br />
@@ -81,7 +81,7 @@ deterministic findings, bounded workflows, and read-only diagnostics.
 
 ## Open-source contribution
 
-### [MCP/OAuth security checks for Ship Safe](https://github.com/asamassekou10/ship-safe/pull/161)
+### [MCP/OAuth security checks for Ship Safe](https://github.com/asamassekou10/ship-safe)
 
 Contributed four conservative detections covering upstream token passthrough,
 audience validation, dynamic client registration, and PKCE handling. The work
@@ -94,7 +94,7 @@ testing, and multi-language validation.
 
 | Project | What it explores | Current state |
 | --- | --- | --- |
-| **[BioVoid](https://github.com/SetraTheXX/BioVoid)** | Reproducible protein-structure preparation and geometry-based pocket-candidate analysis through a local FastAPI/React application. | `v0.1.0 public source baseline` |
+| **[BioVoid](https://github.com/SetraTheXX/BioVoid)** | A local computational research prototype combining deterministic full-heavy-atom structure preparation, geometry-based pocket-candidate detection, a quality-gated experimental NMA layer, and interactive Mol\* inspection. | `v0.1.0 public source baseline` |
 | **[Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)** | Japanese learning for Turkish-speaking beginners: kana, SM-2 reviews, 31 lessons, mini stories, and N5-style practice. | `usable local MVP` |
 
 > **Scientific boundary:** BioVoid is a research prototype. It is not a
