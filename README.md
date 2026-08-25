@@ -30,25 +30,6 @@ honest evidence remain the release gates.
 
 ---
 
-## What I build
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Detect risk early</strong><br /><br />
-      Static security analysis, SARIF reporting, archive inspection, and safe-extraction gates before deployment or file writes.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Control complex execution</strong><br /><br />
-      Explicit scope, isolated worktrees, bounded operations, deterministic verification, recovery, and independent review.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Keep the evidence local</strong><br /><br />
-      Rust, Python, TypeScript, SQLite, and system diagnostics designed to work without unnecessary cloud dependencies.
-    </td>
-  </tr>
-</table>
-
 ## Featured projects
 
 <table>
