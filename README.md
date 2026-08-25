@@ -143,5 +143,5 @@ testing, and multi-language validation.
 **Engineering tooling**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,npm&perline=4&theme=dark" alt="Git, GitHub Actions, Docker, and npm" />
+  <img src="https://skillicons.dev/icons?i=githubactions,docker,npm&perline=3&theme=dark" alt="GitHub Actions, Docker, and npm" />
 </p>
