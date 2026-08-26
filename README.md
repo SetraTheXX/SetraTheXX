@@ -81,6 +81,7 @@ honest evidence remain the release gates.
 | --- | --- | --- |
 | Ship Safe | [#161](https://github.com/asamassekou10/ship-safe/pull/161) | MCP/OAuth security checks |
 | OWASP Noir | [#2657](https://github.com/owasp-noir/noir/pull/2657) | Vercel specification analyzer functional coverage |
+| cargo-deny | [#893](https://github.com/EmbarkStudios/cargo-deny/pull/893) | Sparse registry matching for literal IP hosts |
 
 ## More work
 
