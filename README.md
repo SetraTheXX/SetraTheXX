@@ -58,7 +58,7 @@ honest evidence remain the release gates.
       <h3>PortalDoctor</h3>
       Reconstructs XDG portal routing and checks D-Bus and systemd reachability so Linux desktop-integration failures become actionable findings. Read-only by design, with no telemetry or runtime AI.
       <br /><br />
-      <strong>Status:</strong> <code>v0.1.0 release-preparation baseline</code> · not tagged<br />
+      <strong>Current:</strong> <code>v0.1.0</code> · GitHub Release + crates.io<br />
       <code>Rust 2024</code> <code>terminal + JSON</code> <code>read-only</code> <code>15 findings</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/Portal-Doctor"><strong>View repository →</strong></a>
