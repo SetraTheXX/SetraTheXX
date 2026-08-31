@@ -49,7 +49,7 @@ honest evidence remain the release gates.
       <h3>Codex Engineering Workflow Pack</h3>
       Adds a bounded control plane around Codex: approve the scope, execute in an isolated worktree, verify outside the model loop, require independent review, and leave a portable receipt.
       <br /><br />
-      <strong>Current:</strong> <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.14.0-beta.2"><code>v0.14.0-beta.2</code></a> · npm beta · GitHub prerelease<br />
+      <strong>Current:</strong> <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.14.0"><code>v0.14.0</code></a> · npm stable · GitHub stable release<br />
       <strong>Flow:</strong> <code>plan</code> → <code>approve</code> → <code>execute</code> → <code>verify</code> → <code>reviewer PASS</code> → <code>receipt</code> → <code>finalize</code><br />
       <code>Node.js 22+</code> <code>Codex plugin</code> <code>local MCP</code>
       <br /><br />
