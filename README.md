@@ -36,11 +36,11 @@ honest evidence remain the release gates.
   <tr>
     <td width="50%" valign="top">
       <h3>next-secure-check</h3>
-      A deterministic, Next.js-focused security sanity check for pre-deploy review and CI. It surfaces common risk patterns with bounded, explainable evidence without executing the scanned repository or using an LLM at runtime.
+      A deterministic, Next.js-focused security sanity check for pre-deploy review and CI. It finds common risk patterns and explains why they were flagged, without executing the scanned repository or using an LLM at runtime.
       <br /><br />
-      <strong>Current:</strong> <code>v0.5.0</code> on npm · <code>20 rules</code> · <code>513 tests</code><br />
-      <strong>Ships with:</strong> compact <code>--summary</code> output · SARIF · <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.1.0">Action <code>v1.1.0</code></a><br />
-      <strong>Next:</strong> <code>v0.6</code> request-boundary coverage<br />
+      <strong>Current:</strong> <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.6.0"><code>v0.6.0</code></a> on npm · <code>25 rules</code> · <code>600 tests</code><br />
+      <strong>Use it:</strong> <code>npx</code> one-off scans · compact <code>--summary</code> output · SARIF · <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.2.0">Action <code>v1.2.0</code></a> via <code>@v1</code><br />
+      <strong>Proof:</strong> GitHub CI green · secure fixture <code>99/100</code> · vulnerable fixture <code>26 findings</code><br />
       <code>TypeScript</code> <code>AST-assisted</code> <code>bounded flow</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/next-secure-check"><strong>View repository →</strong></a>
