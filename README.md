@@ -67,9 +67,10 @@ honest evidence remain the release gates.
     </td>
     <td width="50%" valign="top">
       <h3>Pagonic</h3>
-      Inspects ZIP archives for path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before extraction. Provides deterministic reports and policy gates as a Python library and CLI from a local checkout or GitHub release artifact.
+      Inspects ZIP archives for path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before extraction. Provides deterministic reports and policy gates as a Python library and CLI, installable from PyPI and ready for CI workflows.
       <br /><br />
-      <strong>Current:</strong> <code>v0.5.0 alpha</code> · <a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.0">GitHub release</a> · wheel + sdist · no PyPI/TestPyPI package yet<br />
+      <strong>Current:</strong> <code>v0.5.0 alpha</code> · <a href="https://pypi.org/project/pagonic/">PyPI</a> · <a href="https://test.pypi.org/project/pagonic/">TestPyPI</a> · <a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.0">GitHub release</a> · wheel + sdist<br />
+      <strong>Flow:</strong> <code>inspect</code> → <code>verify</code> → <code>safe-extract</code><br />
       <code>Python</code> <code>CLI</code> <code>safe extraction</code> <code>JSON + Markdown</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/pagonic"><strong>View repository →</strong></a>
