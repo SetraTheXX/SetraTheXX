@@ -88,6 +88,7 @@ honest evidence remain the release gates.
 | OWASP Noir | [#2657](https://github.com/owasp-noir/noir/pull/2657) | Vercel specification analyzer functional coverage |
 | cargo-deny | [#893](https://github.com/EmbarkStudios/cargo-deny/pull/893) | Sparse registry matching for literal IP hosts |
 | codex-with-chatgpt | [#26](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/26) | OAuth pairing-page HTML hardening and browser security headers |
+| gosec | [#1733](https://github.com/securego/gosec/pull/1733) | Deterministic, bounded taint caller traversal |
 
 ## More work
 
