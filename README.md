@@ -94,12 +94,10 @@ honest evidence remain the release gates.
 
 | Project | What it explores | Current state |
 | --- | --- | --- |
-| **[BioVoid](https://github.com/SetraTheXX/BioVoid)** | A local computational research prototype combining deterministic full-heavy-atom structure preparation, geometry-based pocket-candidate detection, a quality-gated experimental NMA layer, and interactive Mol\* inspection. | `v0.1.0 public source baseline` |
+| **BioVoid (private)** | A local computational research prototype for reproducible full-heavy-atom protein-structure analysis and geometry-based pocket-candidate generation. Source, datasets, and research artifacts remain private while the study and independent review gates continue. | `private research prototype` |
 | **[Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)** | Japanese learning for Turkish-speaking beginners: kana, SM-2 reviews, 31 lessons, mini stories, and N5-style practice. | `usable local MVP` |
 
-> **Scientific boundary:** BioVoid is a research prototype. It is not a
-> clinical, diagnostic, validated binding-prediction, or drug-development
-> system.
+> **Scientific boundary:** BioVoid is an ongoing private research prototype. Its outputs are unvalidated geometry-based pocket candidates and diagnostics—not clinical, diagnostic, validated binding-prediction, drug-development, or discovery claims. Source, datasets, and intermediate research artifacts are intentionally private while the research continues.
 
 ## Toolbox
 
