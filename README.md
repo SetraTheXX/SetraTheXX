@@ -59,10 +59,11 @@ honest evidence remain the release gates.
   <tr>
     <td width="50%" valign="top">
       <h3>PortalDoctor</h3>
-      Explains why Linux screen sharing, file choosers, and screenshots fail by reconstructing XDG portal routing and checking D-Bus, systemd, PipeWire, and WirePlumber. Read-only by design, with no telemetry or runtime AI.
+      Explains why Linux screen sharing, file choosers, and screenshots fail by reconstructing XDG portal routing and checking D-Bus, systemd, PipeWire, and WirePlumber. Passive/read-only by default, with no telemetry or runtime AI; explicit active probes remain development-only.
       <br /><br />
-      <strong>Current:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/releases/tag/v0.2.1"><code>v0.2.1</code></a> · <a href="https://crates.io/crates/portaldoctor">crates.io</a> · Linux x86_64 binary<br />
-      <strong>Demo:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/blob/main/docs/assets/portaldoctor-demo.gif">slow, readable terminal flow</a> · <code>20 findings</code><br />
+      <strong>Stable:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/releases/tag/v0.2.1"><code>v0.2.1</code></a> · <a href="https://crates.io/crates/portaldoctor">crates.io</a> · Linux x86_64 binary<br />
+      <strong>Development:</strong> <code>main</code> contains unreleased explicit-probe work; use the release/tag for stable source<br />
+      <strong>Demo:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/blob/v0.2.1/docs/assets/portaldoctor-demo.gif">slow, readable terminal flow</a> · <code>20 findings</code><br />
       <code>Rust 2024</code> <code>terminal + JSON + Markdown</code> <code>read-only</code>
       <br /><br />
       <a href="https://github.com/SetraTheXX/Portal-Doctor"><strong>View repository →</strong></a>
