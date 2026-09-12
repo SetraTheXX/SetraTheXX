@@ -91,6 +91,15 @@ honest evidence remain the release gates.
 | codex-with-chatgpt | [#26](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/26) | OAuth pairing-page HTML hardening and browser security headers |
 | gosec | [#1733](https://github.com/securego/gosec/pull/1733) | Deterministic, bounded taint caller traversal |
 
+<details>
+<summary>View more contributions</summary>
+
+| Project | Pull request | Focus |
+| --- | --- | --- |
+| conftest | [#1413](https://github.com/open-policy-agent/conftest/pull/1413) | Apply `--ignore` to explicitly provided files |
+
+</details>
+
 ## More work
 
 | Project | What it explores | Current state |
