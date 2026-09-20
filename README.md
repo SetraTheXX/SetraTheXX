@@ -2,22 +2,28 @@
 
 # Tuncay Ölmez
 
-**Developer Tooling · Application Security · Local-First Systems**
+### Developer Tooling · Application Security · Local-First Systems
 
-I build developer-security tools that turn vague engineering risk into
-**deterministic checks, inspectable evidence, and reproducible workflows.**
+I build developer-security tools and local-first workflows that turn vague engineering risk into **deterministic checks, inspectable evidence, and reproducible systems**.
 
 <br />
 
-<a href="https://linkedin.com/in/tuncayolmez">LinkedIn</a>
-  ·   <a href="https://www.npmjs.com/~setrathex">npm</a>
-  ·   <a href="mailto:removed@localhost">Email</a>
+<a href="https://linkedin.com/in/tuncayolmez">
+  <img src="https://img.shields.io/badge/LinkedIn-Tuncay%20Ölmez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://www.npmjs.com/~setrathex">
+  <img src="https://img.shields.io/badge/npm-setrathex-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+</a>
+<a href="mailto:removed@localhost">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
 <br /><br />
 
 <a href="https://github.com/SetraTheXX/next-secure-check"><strong>next-secure-check</strong></a>
-  ·   <a href="https://github.com/SetraTheXX/Portal-Doctor"><strong>PortalDoctor</strong></a>
-  ·   <a href="https://github.com/SetraTheXX/pagonic"><strong>Pagonic</strong></a>
+ ·  <a href="https://github.com/SetraTheXX/Portal-Doctor"><strong>PortalDoctor</strong></a>
+ ·  <a href="https://github.com/SetraTheXX/pagonic"><strong>Pagonic</strong></a>
+ ·  <a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack"><strong>CEWP</strong></a>
 
 </div>
 
@@ -25,13 +31,13 @@ I build developer-security tools that turn vague engineering risk into
 
 ## About
 
-I'm a Computer Programming student at **Ondokuz Mayıs University** in Samsun, Türkiye, focused on developer tooling, application security, and local-first systems.
+I'm a **Computer Programming student at Ondokuz Mayıs University** in Samsun, Türkiye, focused on developer tooling, application security, local-first systems, and AI-assisted software engineering.
 
-I like building tools with explicit boundaries:
+I prefer systems with explicit boundaries and evidence-backed outcomes:
 
-**scope → implementation → verification → evidence**
+**scope → implementation → verification → review → evidence**
 
-AI is part of my engineering workflow, but generated code is not the acceptance criterion. Tests, independent review, and reproducible runtime evidence decide what ships.
+AI helps me move faster, but generated code is never the acceptance criterion. Tests, reproducible runtime evidence, and independent review decide what ships.
 
 ---
 
@@ -41,51 +47,77 @@ AI is part of my engineering workflow, but generated code is not the acceptance 
 <tr>
 <td width="50%" valign="top">
 
-### [next-secure-check](https://github.com/SetraTheXX/next-secure-check)
+### 🛡️ [next-secure-check](https://github.com/SetraTheXX/next-secure-check)
 
 Deterministic security checks for **Next.js** projects.
 
-Scan locally or in CI and produce terminal, JSON, Markdown, GitHub Summary, or SARIF evidence — without executing the scanned repository or requiring an LLM at runtime.
-
-**Current release**
-[`v0.6.0`](https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.6.0) · npm · 25 rules · 600 tests
-
-**Verification**
-Secure fixture: `99/100`
-Vulnerable fixture: `26 findings`
-
-**Integrations**
-`npx` · GitHub Summary · SARIF · GitHub Action [`v1.2.0`](https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.2.0)
-
-`TypeScript` `AST-assisted` `bounded flow`
+Scan locally or in CI and produce actionable security evidence without executing the scanned repository or requiring an LLM at runtime.
 
 <br />
 
-[**Repository →**](https://github.com/SetraTheXX/next-secure-check)
+<a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.6.0">
+<img src="https://img.shields.io/badge/release-v0.6.0-2ea44f?style=flat-square" alt="release" />
+</a>
+<img src="https://img.shields.io/badge/rules-25-blue?style=flat-square" alt="25 rules" />
+<img src="https://img.shields.io/badge/tests-600-blue?style=flat-square" alt="600 tests" />
+<img src="https://img.shields.io/badge/runtime%20LLM-none-success?style=flat-square" alt="No runtime LLM" />
+
+<br /><br />
+
+**Outputs**
+Terminal · JSON · Markdown · GitHub Summary · SARIF
+
+**Proof**
+Secure fixture `99/100` · vulnerable fixture `26 findings`
+
+**Use**
+`npx` one-off scans · CI · GitHub Action [`v1.2.0`](https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.2.0)
+
+<br />
+
+`TypeScript` `AST-assisted` `bounded flow` `SARIF`
+
+<br /><br />
+
+[**View repository →**](https://github.com/SetraTheXX/next-secure-check)
 
 </td>
 <td width="50%" valign="top">
 
-### [PortalDoctor](https://github.com/SetraTheXX/Portal-Doctor)
+### 🐧 [PortalDoctor](https://github.com/SetraTheXX/Portal-Doctor)
 
 A read-only Linux diagnostic tool for **XDG Desktop Portal, Wayland, D-Bus, systemd, PipeWire, and WirePlumber** failures.
 
-Instead of asking users to guess which desktop component is broken, PortalDoctor reconstructs and explains the routing path.
-
-**Current release**
-[`v0.2.1`](https://github.com/SetraTheXX/Portal-Doctor/releases/tag/v0.2.1) · [crates.io](https://crates.io/crates/portaldoctor) · Linux x86_64
-
-**Boundary**
-Stable releases remain read-only. Explicit probes stay development-only on `main`.
-
-**Output**
-Terminal · JSON · Markdown · [demo](https://github.com/SetraTheXX/Portal-Doctor/blob/v0.2.1/docs/assets/portaldoctor-demo.gif)
-
-`Rust 2024` `Linux diagnostics` `read-only`
+Instead of asking users to guess which desktop component failed, PortalDoctor reconstructs and explains the routing path.
 
 <br />
 
-[**Repository →**](https://github.com/SetraTheXX/Portal-Doctor)
+<a href="https://github.com/SetraTheXX/Portal-Doctor/releases/tag/v0.2.1">
+<img src="https://img.shields.io/badge/release-v0.2.1-2ea44f?style=flat-square" alt="release" />
+</a>
+<a href="https://crates.io/crates/portaldoctor">
+<img src="https://img.shields.io/badge/crates.io-portaldoctor-orange?style=flat-square&logo=rust" alt="crates.io" />
+</a>
+<img src="https://img.shields.io/badge/stable-read--only-success?style=flat-square" alt="read only" />
+
+<br /><br />
+
+**Boundary**
+Stable releases are read-only. Explicit active probes remain development-only on `main`.
+
+**Output**
+Terminal · JSON · Markdown
+
+**Demo**
+[Terminal flow →](https://github.com/SetraTheXX/Portal-Doctor/blob/v0.2.1/docs/assets/portaldoctor-demo.gif)
+
+<br />
+
+`Rust 2024` `Wayland` `D-Bus` `Linux diagnostics`
+
+<br /><br />
+
+[**View repository →**](https://github.com/SetraTheXX/Portal-Doctor)
 
 </td>
 </tr>
@@ -93,49 +125,78 @@ Terminal · JSON · Markdown · [demo](https://github.com/SetraTheXX/Portal-Doct
 <tr>
 <td width="50%" valign="top">
 
-### [Pagonic](https://github.com/SetraTheXX/pagonic)
+### 📦 [Pagonic](https://github.com/SetraTheXX/pagonic)
 
 Inspect ZIP archives **before extraction**.
 
-Pagonic detects path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before files are written to disk.
+Pagonic detects path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before files are written.
 
-**Current release**
-[`v0.5.1`](https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.1) · [PyPI](https://pypi.org/project/pagonic/) · wheel + sdist
+<br />
+
+<a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.1">
+<img src="https://img.shields.io/badge/release-v0.5.1-2ea44f?style=flat-square" alt="release" />
+</a>
+<a href="https://pypi.org/project/pagonic/">
+<img src="https://img.shields.io/badge/PyPI-pagonic-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" />
+</a>
+<img src="https://img.shields.io/badge/extraction-policy%20gated-success?style=flat-square" alt="policy gated" />
+
+<br /><br />
 
 **Workflow**
 
 `inspect` → `verify` → `safe-extract`
 
-**Output**
-Deterministic reports · policy gates · JSON · Markdown
+**Detects**
 
-`Python` `CLI` `safe extraction`
+Path traversal · suspicious entries · extreme compression ratios · unsupported methods · malformed structures
+
+**Output**
+
+Deterministic reports · policy gates · JSON · Markdown
 
 <br />
 
-[**Repository →**](https://github.com/SetraTheXX/pagonic)
+`Python` `CLI` `ZIP security` `safe extraction`
+
+<br /><br />
+
+[**View repository →**](https://github.com/SetraTheXX/pagonic)
 
 </td>
 <td width="50%" valign="top">
 
-### [Codex Engineering Workflow Pack](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
+### ⚙️ [Codex Engineering Workflow Pack](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
 
 A local-first control plane around Codex.
 
 Approve scope, execute inside an isolated worktree, verify outside the model loop, require independent review, and leave behind a portable receipt.
 
-**Current release**
-[`v0.14.0`](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.14.0) · npm · GitHub release
+<br />
+
+<a href="https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack/releases/tag/v0.14.0">
+<img src="https://img.shields.io/badge/release-v0.14.0-2ea44f?style=flat-square" alt="release" />
+</a>
+<img src="https://img.shields.io/badge/runtime-Node.js%2022+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/workflow-local--first-blueviolet?style=flat-square" alt="local first" />
+
+<br /><br />
 
 **Workflow**
 
 `plan` → `approve` → `execute` → `verify` → `review` → `receipt`
 
-`Node.js 22+` `Codex` `local MCP`
+**Design**
+
+Explicit scope · isolated execution · external verification · independent review · portable receipts
 
 <br />
 
-[**Repository →**](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
+`Node.js 22+` `Codex` `local MCP` `worktrees`
+
+<br /><br />
+
+[**View repository →**](https://github.com/SetraTheXX/Codex-Engineering-Workflow-Pack)
 
 </td>
 </tr>
@@ -145,84 +206,107 @@ Approve scope, execute inside an isolated worktree, verify outside the model loo
 
 ## Open-source contributions
 
-I prefer narrow, reviewable upstream fixes with regression coverage.
+I prefer **small, reviewable upstream fixes with regression coverage**.
 
-| Project                | Contribution                                                     | Focus                                                          |
-| ---------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| Project                |                           Pull request                           | Focus                                                          |
+| :--------------------- | :--------------------------------------------------------------: | -------------------------------------------------------------- |
 | **conftest**           | [#1413](https://github.com/open-policy-agent/conftest/pull/1413) | Apply `--ignore` to explicitly provided files                  |
-| **gosec**              | [#1733](https://github.com/securego/gosec/pull/1733)             | Deterministic, bounded taint caller traversal                  |
-| **codex-with-chatgpt** | [#26](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/26)   | OAuth pairing-page HTML hardening and browser security headers |
-| **cargo-deny**         | [#893](https://github.com/EmbarkStudios/cargo-deny/pull/893)     | Sparse registry matching for literal IP hosts                  |
-| **OWASP Noir**         | [#2657](https://github.com/owasp-noir/noir/pull/2657)            | Vercel specification analyzer functional coverage              |
+| **gosec**              |       [#1733](https://github.com/securego/gosec/pull/1733)       | Deterministic, bounded taint caller traversal                  |
+| **codex-with-chatgpt** |  [#26](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/26)  | OAuth pairing-page HTML hardening and browser security headers |
+| **cargo-deny**         |   [#893](https://github.com/EmbarkStudios/cargo-deny/pull/893)   | Sparse registry matching for literal IP hosts                  |
+| **OWASP Noir**         |       [#2657](https://github.com/owasp-noir/noir/pull/2657)      | Vercel specification analyzer functional coverage              |
 
 <details>
 <summary><strong>More merged contributions</strong></summary>
 
 <br />
 
-| Project       | Contribution                                                | Focus                     |
-| ------------- | ----------------------------------------------------------- | ------------------------- |
+| Project       |                         Pull request                        | Focus                     |
+| :------------ | :---------------------------------------------------------: | ------------------------- |
 | **Ship Safe** | [#161](https://github.com/asamassekou10/ship-safe/pull/161) | MCP/OAuth security checks |
 
 </details>
 
 ---
 
+## Tech stack
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,py,rust,nodejs,nextjs,react,fastapi,sqlite,docker,githubactions,npm,linux,git&theme=dark&perline=13" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,py,rust,nodejs,nextjs,react,fastapi,sqlite,docker,githubactions,npm,linux,git&theme=light&perline=13" />
+  <img src="https://skillicons.dev/icons?i=ts,py,rust,nodejs,nextjs,react,fastapi,sqlite,docker,githubactions,npm,linux,git&theme=dark&perline=13" alt="Technology stack" />
+</picture>
+
+<br />
+
+**Languages**
+TypeScript · Python · Rust
+
+**Runtime & application**
+Node.js · Next.js · React · FastAPI · SQLite
+
+**Engineering**
+Linux · Git · GitHub Actions · Docker · npm
+
+</div>
+
+---
+
 ## Other work
 
-### BioVoid · private research prototype
+### 🧬 BioVoid
 
-Local computational research into reproducible **full-heavy-atom protein-structure analysis** and geometry-based pocket-candidate generation.
+**Private research prototype**
 
-The source, datasets, and intermediate research artifacts remain private while research and independent review continue.
+A local computational research project exploring reproducible **full-heavy-atom protein-structure analysis** and geometry-based pocket-candidate generation.
+
+Source code, datasets, and intermediate research artifacts remain private while research and independent review continue.
 
 <details>
-<summary><strong>Research boundary</strong></summary>
+<summary><strong>Scientific boundary</strong></summary>
 
 <br />
 
 BioVoid produces unvalidated geometry-based pocket candidates and diagnostics.
 
-Its outputs are **not** clinical results, diagnostic claims, validated binding predictions, drug-development results, or drug-discovery claims.
+Its outputs are not clinical results, diagnostic claims, validated binding predictions, drug-development results, or drug-discovery claims.
 
 </details>
 
 <br />
 
-### [Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)
+### 🇯🇵 [Nihongo Learn](https://github.com/SetraTheXX/nihongo-learn)
 
-Japanese learning software for Turkish-speaking beginners.
+Japanese learning software designed for Turkish-speaking beginners.
 
-Kana practice, SM-2 reviews, 31 lessons, mini stories, and N5-style exercises.
+Kana practice · SM-2 reviews · 31 lessons · mini stories · N5-style exercises
 
-`usable local MVP`
-
----
-
-## Toolbox
-
-**Languages**
-
-`TypeScript` · `Python` · `Rust`
-
-**Runtime & application**
-
-`Node.js` · `Next.js` · `React` · `FastAPI` · `SQLite`
-
-**Engineering**
-
-`GitHub Actions` · `Docker` · `npm` · `Linux` · `Git`
+<img src="https://img.shields.io/badge/state-usable%20local%20MVP-blue?style=flat-square" alt="usable local MVP" />
 
 ---
 
-## Currently interested in
+## Current interests
 
-Developer tooling, application security, secure software supply chains, local-first AI workflows, deterministic analysis, and developer-facing security automation.
+`Developer Tooling`
+ 
+`Application Security`
+ 
+`Secure Software Supply Chains`
+ 
+`Local-First AI`
+ 
+`Deterministic Analysis`
+ 
+`Security Automation`
 
 ---
 
 <div align="center">
 
-### Build small. Verify aggressively. Leave evidence.
+### Build deliberately. Verify independently. Leave evidence.
+
+<sub>Developer tooling · application security · local-first engineering</sub>
 
 </div>
