@@ -27,9 +27,6 @@ I'm a Computer Programming student at Ondokuz Mayıs University in Samsun,
 Türkiye. I turn practical engineering problems into small tools with clear
 boundaries, reproducible output, and a path from local use to CI.
 
-My work is mostly centered on developer tooling, application security,
-local-first systems, and AI-assisted engineering workflows.
-
 AI helps me move faster; tests, review, and reproducible runtime evidence decide
 what ships.
 
@@ -68,7 +65,7 @@ what ships.
       </a>
       <br /><br />
       <strong>Release:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/releases/tag/v0.2.1"><code>v0.2.1</code></a> · crates.io · Linux x86_64 binary<br />
-      <strong>Boundary:</strong> the published release only reads system state — it never writes or triggers actions. Deeper, write-capable probes exist but stay on the development branch until they're independently verified.<br />
+      <strong>Boundary:</strong> the published release is passive and read-only; explicit active probes remain development-only until their individual validation gates are complete.<br />
       <strong>Demo:</strong> <a href="https://github.com/SetraTheXX/Portal-Doctor/blob/v0.2.1/docs/assets/portaldoctor-demo.gif">terminal flow</a> · JSON + Markdown
       <br /><br />
       <code>Rust 2024</code> <code>Linux diagnostics</code> <code>read-only</code>
@@ -146,9 +143,9 @@ I prefer narrow, reviewable fixes with regression coverage. These are merged ups
 ## Private work
 
 Some of my larger ongoing systems remain private while their implementation,
-research, and review cycles continue. These are in-progress and haven't gone
-through independent review yet, so descriptions here are intentionally scoped
-to what they're for, not what they claim to achieve.
+research, and review cycles continue. These are ongoing private systems, so
+the descriptions here are intentionally limited to their purpose and current
+public-facing scope.
 
 | Project       | Focus                                                                                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
