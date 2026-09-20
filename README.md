@@ -183,27 +183,27 @@ Japanese learning for Turkish-speaking beginners: kana practice, SM-2 reviews,
 
 ## Toolbox
 
-### Core
+### Languages
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,py,rust&theme=dark&perline=3" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,py,rust&theme=light&perline=3" />
-  <img src="https://skillicons.dev/icons?i=ts,py,rust&theme=dark&perline=3" alt="TypeScript, Python, and Rust" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cpy%2Crust%2Cgo%2Cdart&theme=dark&perline=5" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cpy%2Crust%2Cgo%2Cdart&theme=light&perline=5" />
+  <img src="https://skillicons.dev/icons?i=ts,py,rust,go,dart&theme=dark&perline=5" alt="TypeScript, Python, Rust, Go, and Dart" />
 </picture>
 
 ### Runtime & application stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,sqlite&theme=dark&perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,sqlite&theme=light&perline=5" />
-  <img src="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,sqlite&theme=dark&perline=5" alt="Node.js, Next.js, React, FastAPI, and SQLite" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cnextjs%2Creact%2Cfastapi%2Cflutter%2Ctauri%2Csqlite&theme=dark&perline=7" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs%2Cnextjs%2Creact%2Cfastapi%2Cflutter%2Ctauri%2Csqlite&theme=light&perline=7" />
+  <img src="https://skillicons.dev/icons?i=nodejs,nextjs,react,fastapi,flutter,tauri,sqlite&theme=dark&perline=7" alt="Node.js, Next.js, React, FastAPI, Flutter, Tauri, and SQLite" />
 </picture>
 
 ### Engineering tooling
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,githubactions,docker,npm,linux&theme=dark&perline=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,githubactions,docker,npm,linux&theme=light&perline=5" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithubactions%2Cdocker%2Cnpm%2Clinux&theme=dark&perline=5" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git%2Cgithubactions%2Cdocker%2Cnpm%2Clinux&theme=light&perline=5" />
   <img src="https://skillicons.dev/icons?i=git,githubactions,docker,npm,linux&theme=dark&perline=5" alt="Git, GitHub Actions, Docker, npm, and Linux" />
 </picture>
 
