@@ -40,7 +40,7 @@ what ships.
       <h3>
         <a href="https://github.com/SetraTheXX/next-secure-check">next-secure-check</a>
       </h3>
-      Deterministic security checks for Next.js projects. Scan before deploy or in CI and get clear terminal, JSON, Markdown, GitHub Summary, or SARIF evidence without executing the scanned repository or using an LLM at runtime.
+      AI wrote your Next.js app. Who checks the AI? SecureCheck provides a deterministic security baseline for AI-generated and human-written Next.js code. Run it locally or in GitHub Actions. It produces terminal, JSON, Markdown, GitHub Summary, and SARIF reports. No AI is required at runtime. Scanned project code is not executed, and findings are review signals, not confirmed vulnerabilities.
       <br /><br />
       <a href="https://www.npmjs.com/package/next-secure-check">
         <img src="https://img.shields.io/npm/v/next-secure-check?style=flat-square&logo=npm&label=npm" alt="npm version" />
