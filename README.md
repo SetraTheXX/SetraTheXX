@@ -46,9 +46,11 @@ what ships.
         <img src="https://img.shields.io/npm/v/next-secure-check?style=flat-square&logo=npm&label=npm" alt="npm version" />
       </a>
       <br /><br />
-      <strong>Release:</strong> <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.6.0"><code>v0.6.0</code></a> · <code>25 rules</code> · <code>600 tests</code><br />
-      <strong>Try:</strong> <code>npx</code> one-off scans · <code>--summary</code> · SARIF · <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.2.0">Action <code>v1.2.0</code></a> via <code>@v1</code><br />
-      <strong>Proof:</strong> secure fixture <code>99/100</code> · vulnerable fixture <code>26 findings</code>
+      <strong>Release:</strong> <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v0.6.1"><code>v0.6.1</code></a> · <code>25 rules</code> · <a href="https://github.com/SetraTheXX/next-secure-check/actions/runs/36146697622"><code>643 tests</code></a> in release CI<br />
+      <strong>Try:</strong> <code>npx --yes next-secure-check@0.6.1 scan . --preset app --summary</code><br />
+      <strong>Integrations:</strong> SARIF · <a href="https://github.com/SetraTheXX/next-secure-check/releases/tag/v1.2.0">Action <code>v1.2.0</code></a> via <code>@v1</code> (currently runs CLI <code>0.6.0</code>)<br />
+      <strong>Boundary:</strong> findings are review signals, not confirmed vulnerabilities or a security guarantee.<br />
+      <strong>Fixture run:</strong> secure fixture <code>99/100</code> · vulnerable fixture <code>26 findings</code>
       <br /><br />
       <code>TypeScript</code> <code>AST-assisted</code> <code>bounded flow</code>
       <br /><br />
