@@ -40,7 +40,7 @@ what ships.
       <h3>
         <a href="https://github.com/SetraTheXX/next-secure-check">next-secure-check</a>
       </h3>
-      A deterministic security baseline for AI-generated and human-written Next.js code.
+      A deterministic security baseline for AI-generated and human-written Next.js code. It checks common auth, injection, secrets, and configuration risks.
       <br /><br />
       <a href="https://www.npmjs.com/package/next-secure-check">
         <img src="https://img.shields.io/npm/v/next-secure-check?style=flat-square&logo=npm&label=npm" alt="npm version" />
