@@ -81,13 +81,13 @@ what ships.
       <h3>
         <a href="https://github.com/SetraTheXX/pagonic">Pagonic</a>
       </h3>
-      Inspect ZIP archives before extraction. Pagonic detects path traversal, suspicious entries, extreme compression ratios, unsupported methods, and structural errors before files are written.
+      Inspect ZIP archives before extraction. Pagonic detects path traversal, suspicious entries, entry and archive-total compression ratios above 100:1 at 1 MiB or larger, unsupported methods, and structural errors before files are written. The ratio screen can flag benign repetitive files, and incompressible padding can dilute archive-wide ratios.
       <br /><br />
       <a href="https://pypi.org/project/pagonic/">
         <img src="https://img.shields.io/pypi/v/pagonic?style=flat-square&logo=pypi&label=PyPI" alt="PyPI version" />
       </a>
       <br /><br />
-      <strong>Release:</strong> <a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.1"><code>v0.5.1</code></a> · wheel + sdist<br />
+      <strong>Release:</strong> <a href="https://github.com/SetraTheXX/pagonic/releases/tag/v0.5.2"><code>v0.5.2</code></a> · wheel + sdist<br />
       <strong>Flow:</strong> <code>inspect</code> → <code>verify</code> → <code>safe-extract</code><br />
       <strong>Output:</strong> deterministic reports · policy gates · JSON + Markdown
       <br /><br />
