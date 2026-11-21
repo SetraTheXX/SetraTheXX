@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Tuncay Ölmez</title>
+  <desc id="d">Rust, game engines and developer security tools. A terminal builds a Rust game engine and starts its editor.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="1" stop-color="#151b29"/>
+    </linearGradient>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f17" stop-opacity="1"/>
+      <stop offset="0.4" stop-color="#0b0f17" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.66" r="0.55">
+      <stop offset="0" stop-color="#f46623" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f46623" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="floor"><rect x="0" y="212" width="1200" height="108"/></clipPath>
+    <clipPath id="cmdClip"><rect class="cmd" x="704" y="60" width="0" height="24"/></clipPath>
+    <style>
+      .sans{font-family:'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,monospace}
+      .name{font-size:58px;font-weight:700;fill:#e6edf3;letter-spacing:-1px}
+      .tag{font-size:22px;font-weight:500;fill:#8b949e}
+      .acc{fill:#f46623}
+      .meta{font-size:15px;fill:#6e7681}
+      .t{font-size:15.5px;fill:#c9d1d9;white-space:pre}
+      .ok{fill:#3fb950;font-weight:700}
+      .dim{fill:#8b949e}
+      .grid{stroke:#f46623;stroke-width:1.2;opacity:.3}
+      .hl{stroke:#f46623;stroke-width:1.4;animation:fly 4s cubic-bezier(.6,0,1,.5) infinite}
+      .in1{opacity:0;animation:rise .9s ease-out .1s forwards}
+      .in2{opacity:0;animation:rise .9s ease-out .35s forwards}
+      .in3{opacity:0;animation:rise .9s ease-out .6s forwards}
+      .cmd{animation:cmd 9s steps(23,end) infinite}
+      .l2{animation:l2 9s step-end infinite}
+      .l3{animation:l3 9s step-end infinite}
+      .l4{animation:l4 9s step-end infinite}
+      .l5{animation:l5 9s step-end infinite}
+      .l6{animation:l6 9s step-end infinite}
+      .cur{animation:cur 9s step-end infinite}
+      .blink{animation:blink 1s step-end infinite}
+      @keyframes fly{0%{transform:translateY(0);opacity:0}15%{opacity:.55}100%{transform:translateY(108px);opacity:.55}}
+      @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+      @keyframes cmd{0%{width:0}12%,94%{width:220px}100%{width:0}}
+      @keyframes l2{0%{opacity:0}18%{opacity:1}94%{opacity:0}}
+      @keyframes l3{0%{opacity:0}26%{opacity:1}94%{opacity:0}}
+      @keyframes l4{0%{opacity:0}34%{opacity:1}94%{opacity:0}}
+      @keyframes l5{0%{opacity:0}46%{opacity:1}94%{opacity:0}}
+      @keyframes l6{0%{opacity:0}54%{opacity:1}94%{opacity:0}}
+      @keyframes cur{0%{opacity:0}58%{opacity:1}94%{opacity:0}}
+      @keyframes blink{50%{fill-opacity:0}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.in1,.in2,.in3{opacity:1}.cmd{width:220px}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="212" fill="url(#dots)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- perspective floor -->
+    <g clip-path="url(#floor)">
+      <g class="grid">
+        <line x1="600" y1="212" x2="-900" y2="320"/><line x1="600" y1="212" x2="-600" y2="320"/>
+        <line x1="600" y1="212" x2="-300" y2="320"/><line x1="600" y1="212" x2="0" y2="320"/>
+        <line x1="600" y1="212" x2="300" y2="320"/><line x1="600" y1="212" x2="600" y2="320"/>
+        <line x1="600" y1="212" x2="900" y2="320"/><line x1="600" y1="212" x2="1200" y2="320"/>
+        <line x1="600" y1="212" x2="1500" y2="320"/><line x1="600" y1="212" x2="1800" y2="320"/>
+        <line x1="600" y1="212" x2="2100" y2="320"/>
+      </g>
+      <line class="hl" x1="0" y1="212" x2="1200" y2="212" style="animation-delay:0s"/>
+      <line class="hl" x1="0" y1="212" x2="1200" y2="212" style="animation-delay:-.8s"/>
+      <line class="hl" x1="0" y1="212" x2="1200" y2="212" style="animation-delay:-1.6s"/>
+      <line class="hl" x1="0" y1="212" x2="1200" y2="212" style="animation-delay:-2.4s"/>
+      <line class="hl" x1="0" y1="212" x2="1200" y2="212" style="animation-delay:-3.2s"/>
+      <rect x="0" y="212" width="1200" height="108" fill="url(#floorFade)"/>
+    </g>
+    <line x1="0" y1="212" x2="1200" y2="212" stroke="#f46623" stroke-opacity=".55" stroke-width="1.5"/>
+
+    <!-- identity -->
+    <g class="in1"><text class="sans name" x="60" y="96">Tuncay Ölmez</text></g>
+    <g class="in2"><text class="sans tag" x="62" y="136">Rust <tspan class="acc">·</tspan> game engines <tspan class="acc">·</tspan> developer security tools</text></g>
+    <g class="in3"><text class="mono meta" x="62" y="176" xml:space="preserve">samsun, türkiye  <tspan class="acc">/</tspan>  shipping on crates.io · npm · pypi</text></g>
+
+    <!-- terminal -->
+    <g>
+      <rect x="684" y="20" width="472" height="184" rx="12" fill="#0d1117" fill-opacity=".92" stroke="#30363d"/>
+      <path d="M684 46 H1156" stroke="#21262d"/>
+      <circle cx="704" cy="33" r="5" fill="#ff5f57"/>
+      <circle cx="722" cy="33" r="5" fill="#febc2e"/>
+      <circle cx="740" cy="33" r="5" fill="#28c840"/>
+      <text class="mono dim" x="920" y="38" font-size="13" text-anchor="middle">~/engine</text>
+
+      <g clip-path="url(#cmdClip)"><text class="mono t" x="704" y="77" xml:space="preserve"><tspan class="acc">$</tspan> cargo build --release</text></g>
+      <text class="mono t l2" x="704" y="100" xml:space="preserve"><tspan class="ok">   Compiling</tspan> wgpu v30.0.0</text>
+      <text class="mono t l3" x="704" y="122" xml:space="preserve"><tspan class="ok">   Compiling</tspan> engine-core v0.1.0</text>
+      <text class="mono t l4" x="704" y="144" xml:space="preserve"><tspan class="ok">   Compiling</tspan> engine-editor v0.1.0</text>
+      <text class="mono t l5" x="704" y="166" xml:space="preserve"><tspan class="ok">    Finished</tspan> `release` profile [optimized]</text>
+      <text class="mono t l6" x="704" y="188" xml:space="preserve"><tspan class="ok">     Running</tspan> `target/release/editor`</text>
+      <g class="cur"><rect class="blink" x="1040" y="175" width="9" height="16" fill="#f46623"/></g>
+    </g>
+  </g>
+</svg>
